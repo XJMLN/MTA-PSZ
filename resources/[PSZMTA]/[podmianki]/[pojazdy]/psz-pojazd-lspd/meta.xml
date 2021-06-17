@@ -1,0 +1,6 @@
+<meta>
+	<file src="lspd.txd" />
+	<file src="lspd.dff" />
+	
+	<script src='replace.lua' type='client' />
+</meta>

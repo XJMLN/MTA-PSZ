@@ -1,0 +1,16 @@
+
+GUIEditor = {
+    tab = {},
+    window = {},
+    tabpanel = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(247, 161, 747, 446, "", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(9, 21, 728, 357, false, GUIEditor.window[1])
+
+        GUIEditor.tab[1] = guiCreateTab("Tab", GUIEditor.tabpanel[1])    
+    end
+)

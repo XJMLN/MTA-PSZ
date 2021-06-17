@@ -1,0 +1,6 @@
+<meta>
+	<file src="firetruk.txd" />
+	<file src="firetruk.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

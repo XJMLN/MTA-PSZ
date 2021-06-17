@@ -1,0 +1,3 @@
+<meta>
+	<script src="map.lua" type="client" />  <script src="zarzadzanie_c.lua" type="client" /> <script src="zarzadzanie.lua" type="server" />
+</meta>

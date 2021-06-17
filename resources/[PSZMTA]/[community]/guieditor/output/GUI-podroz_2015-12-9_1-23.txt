@@ -1,0 +1,16 @@
+
+GUIEditor = {
+    gridlist = {},
+    window = {},
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(318, 136, 674, 457, "Podróż do...", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.gridlist[1] = guiCreateGridList(292, 48, 372, 399, false, GUIEditor.window[1])
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Nazwa", 0.9)
+        GUIEditor.label[1] = guiCreateLabel(14, 48, 268, 115, "Wybierz miejsce do którego chcesz się przenieść.\n\nPamiętaj aby nie teleportować się podczas\npodróży.\n\nBrakuje nowego miejsca? Napisz do któregoś z \nadministratorów i poinformuj go o danym miejscu.", false, GUIEditor.window[1])    
+    end
+)

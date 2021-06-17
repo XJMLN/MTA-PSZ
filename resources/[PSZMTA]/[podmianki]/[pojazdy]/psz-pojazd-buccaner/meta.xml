@@ -1,0 +1,6 @@
+<meta>
+	<file src="sabre.txd" />
+	<file src="sabre.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

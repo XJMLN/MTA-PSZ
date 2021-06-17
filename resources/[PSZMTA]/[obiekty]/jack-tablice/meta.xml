@@ -1,0 +1,7 @@
+<meta>
+<script src="tablice_pos.lua" type="server" />
+<script src="tablica.lua" type="server" /> 
+
+    <map src="Na_zewnatrz.map" />
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

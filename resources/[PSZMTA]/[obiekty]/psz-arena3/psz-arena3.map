@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgsSairportland06) (1)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="2439" posX="-1418.8" posY="1490" posZ="-6.2" rotX="0" rotY="0" rotZ="92"></object>
+    <object id="object (vgsSairportland06) (2)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="2439" posX="-1413.1" posY="1479.1" posZ="14.3" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (vgsSairportland06) (3)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="2439" posX="-1360.7" posY="1490.7" posZ="14.4" rotX="0" rotY="90" rotZ="180"></object>
+    <object id="object (vgsSairportland06) (4)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="2439" posX="-1423.6" posY="1500" posZ="14.5" rotX="0" rotY="90" rotZ="269.995"></object>
+    <object id="object (vgsSairportland06) (5)" breakable="true" interior="0" alpha="0" model="8171" doublesided="false" scale="1" dimension="2439" posX="-1481.7" posY="1498.9" posZ="14.3" rotX="0" rotY="90" rotZ="359.995"></object>
+</map>

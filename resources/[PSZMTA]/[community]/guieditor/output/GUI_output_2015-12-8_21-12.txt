@@ -1,0 +1,15 @@
+
+GUIEditor = {
+    button = {},
+    window = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+local screenW, screenH = guiGetScreenSize()
+        GUIEditor.window[1] = guiCreateWindow((screenW - 669) / 2, (screenH - 483) / 2, 669, 483, "Adopcja zwierzaka", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.button[1] = guiCreateButton(380, 374, 279, 99, "Zamknij", false, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(17, 376, 288, 97, "Adoptuj", false, GUIEditor.window[1])    
+    end
+)

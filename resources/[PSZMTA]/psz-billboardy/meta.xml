@@ -1,0 +1,11 @@
+<meta>
+
+  <script src="billboardy_c.lua" type="client" />
+  
+	<file src="shader.fx" type="client" />
+	<file src="img/ts3.jpg" />
+	<!--file src="img/moto.jpg" /-->
+	<file src="img/snnews.png" />
+	<!--file src="img/pszbirth.png" /-->
+	<!--file src="img/forum.png" /-->
+</meta>

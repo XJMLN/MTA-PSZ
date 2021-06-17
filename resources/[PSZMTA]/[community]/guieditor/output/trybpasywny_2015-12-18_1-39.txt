@@ -1,0 +1,8 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawImage(979, 44, 128, 128, ":psz-gui/img/pasywny.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+        dxDrawText("Tryb pasywny", 997, 206, 1214, 244, tocolor(255, 255, 255, 255), 1.00, "pricedown", "center", "center", false, false, false, false, false)
+    end
+)

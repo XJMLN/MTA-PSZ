@@ -1,0 +1,6 @@
+<meta>
+	<file src="landstal.txd" />
+	<file src="landstal.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

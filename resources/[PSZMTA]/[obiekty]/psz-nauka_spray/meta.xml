@@ -1,0 +1,4 @@
+<meta>
+<script src="spray.lua" type="server" />
+<script src="spray_c.lua" type="client" />
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+    <script src="tablice.lua" type="server" />
+    <script src="tablice_c.lua" type="client" />
+</meta>

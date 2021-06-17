@@ -1,0 +1,20 @@
+﻿<root>
+	<radio name="User Track Player" path="12" type="0"/>
+	<!--radio name="Youtube Player" path="11" type="2"/-->
+	<radio name="RMF FM" path="http://www.rmfon.pl/n/rmffm.pls"  type="4"/>
+	<radio name="RMF MAXX" path="http://www.rmfon.pl/n/rmfmaxxx.pls"  type="4"/>
+	<radio name="DJ TOP 50" path="http://polskastacja.pl/play/aac_djtop50.pls"  type="3"/>
+	<radio name="HOT 100" path="http://polskastacja.pl/play/hot100.pls"  type="3"/>
+	<radio name="Eska Warszawa" path="http://acdn.smcloud.net/t042-1.mp3.pls" type="4" />
+	<radio name="Radio Red7" path="http://radiors.pl/sluchaj-glowny" type="4" />
+	<radio name="Radio Zet" path="http://91.121.179.221:8050/listen.pls" type="4" />
+	<radio name="Viva" path="http://gr-relay-4.gaduradio.pl/64" type="4" />
+	<radio name="VOX FM" path="http://s4.deb1.scdn.smcloud.net/t049-1.aac" type="4" />
+	<radio name="Eska Rock" path="http://www.odsluchane.eu/pls/eska_rock.pls" type="4" />
+	<radio name="Radio Party" path="http://www.radioparty.pl/play/glowny_64.m3u" type="4" />
+	<radio name="Radio 'Złote Przeboje'" path="http://www.radio.pionier.net.pl/stream.pls?radio=radio88" type="4" />
+	<radio name="MTV" path="http://s17753.rbx2.fastd.svpj.pl/psz-spawnsf2/radio.pls" type="4" />
+
+	<!--radio type 0 = GTA radio; type 1 = grunge font for metal, rock etc; type 2 = future font for electro, techno, dubstep, rave, dance etc; type 3 = brush font for 60&70&80&90, classic, psychodelic and progressive, type 4 = other, normal font like in type 0 (but dont use type 0) -->
+	<!-- type = gta radio, type 1+ = internet radio -->
+</root>

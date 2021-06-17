@@ -1,0 +1,23 @@
+<map edf:definitions="editor_main">
+    <vehicle id="vehicle (Savanna) (1)" paintjob="3" interior="0" alpha="255" model="567" plate="Y7FN2YR" dimension="0" color="109,40,55,164,167,165,0,0,0,0,0,0" posX="2293" posY="-1682.5" posZ="13.9" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Tampa) (1)" paintjob="3" interior="0" alpha="255" model="549" plate="F0R41R3" dimension="0" color="32,32,44,109,122,136,0,0,0,0,0,0" posX="2484.6001" posY="-1748.7" posZ="13.4" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Feltzer) (1)" paintjob="3" interior="0" alpha="255" model="533" plate="6NIC4CD" dimension="0" color="96,26,35,245,245,245,0,0,0,0,0,0" posX="2477.5" posY="-1753.1" posZ="13.3" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Bobcat) (1)" paintjob="3" interior="0" alpha="255" model="422" plate="PAER51S" dimension="0" color="30,46,50,156,141,113,0,0,0,0,0,0" posX="2502.5" posY="-1746.2" posZ="13.5" rotX="0" rotY="0" rotZ="270"></vehicle>
+    <vehicle id="vehicle (Sadler) (1)" paintjob="3" interior="0" alpha="255" model="543" plate="OFY0QGI" dimension="0" color="42,119,161,42,119,161,0,0,0,0,0,0" posX="2499.8999" posY="-1755.7" posZ="13.4" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Boxville) (1)" paintjob="3" interior="0" alpha="255" model="498" plate="WZFPCEK" dimension="0" color="99,92,90,161,153,131,0,0,0,0,0,0" posX="2492.1001" posY="-1754.9" posZ="13.7" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Benson) (1)" paintjob="3" interior="0" alpha="255" model="499" plate="ZNHIMPL" dimension="0" color="82,86,97,63,62,69,0,0,0,0,0,0" posX="2495.3" posY="-1953.2" posZ="13.5" rotX="0" rotY="0" rotZ="0"></vehicle>
+    <vehicle id="vehicle (Admiral) (1)" paintjob="3" interior="0" alpha="255" model="445" plate="BSNW OIY" dimension="0" posX="2281.1001" posY="-1682.1" posZ="14.3" rotX="0" rotY="0" rotZ="0" color="45,58,53,45,58,53,0,0,0,0,0,0"></vehicle>
+    <vehicle id="vehicle (Tahoma) (1)" paintjob="3" interior="0" alpha="255" model="566" plate="2L3A T28" dimension="0" posX="2395.8999" posY="-1754.7" posZ="13.4" rotX="0" rotY="0" rotZ="270" color="77,98,104,189,190,198,0,0,0,0,0,0"></vehicle>
+    <vehicle id="vehicle (Tahoma) (2)" paintjob="3" interior="0" alpha="255" model="566" plate="JPUY 05N" dimension="0" posX="2326.1001" posY="-1755" posZ="13.4" rotX="0" rotY="0" rotZ="270" color="77,98,104,189,190,198,0,0,0,0,0,0"></vehicle>
+    <vehicle id="vehicle (Greenwood) (1)" paintjob="3" interior="0" alpha="255" model="492" plate="X65G ESI" dimension="0" posX="2296.3999" posY="-1721.5" posZ="13.5" rotX="0" rotY="0" rotZ="0" color="81,84,89,125,98,86,0,0,0,0,0,0"></vehicle>
+    <vehicle id="vehicle (Greenwood) (2)" paintjob="3" interior="0" alpha="255" model="492" plate="EORZ RF0" dimension="0" posX="2505.6001" posY="-1695.4" posZ="14" rotX="0" rotY="0" rotZ="0" color="81,84,89,125,98,86,0,0,0,0,0,0"></vehicle>
+<!-- gokarty w sf na torze -->
+	<vehicle model="571" posX="-2046.5188000" posY="-105.4922000" posZ="34.5016000" rotX="0.0000000" rotY="0.0000000" rotZ="154.0009000" color="36,2" />
+	<vehicle model="571" posX="-2043.4717000" posY="-111.8118000" posZ="34.5155000" rotX="0.0000000" rotY="0.0000000" rotZ="112.0676000" color="51,53" />
+	<vehicle model="571" posX="-2044.1707000" posY="-109.3428000" posZ="34.5106000" rotX="0.0000000" rotY="0.0000000" rotZ="113.6538000" color="91,2" />
+	<vehicle model="571" posX="-2044.7900000" posY="-107.1285000" posZ="34.5148000" rotX="0.0000000" rotY="0.0000000" rotZ="134.8412000" color="11,22" />
+	<vehicle model="571" posX="-2042.4646000" posY="-105.3114000" posZ="34.4900000" rotX="0.0000000" rotY="0.0000000" rotZ="125.7164000" color="40,35" />
+	<vehicle model="571" posX="-2043.1378000" posY="-114.1478000" posZ="34.5005000" rotX="0.0000000" rotY="0.0000000" rotZ="88.0897000" color="2,35" />
+	<vehicle model="571" posX="-2041.2350000" posY="-109.2113000" posZ="34.4920000" rotX="0.0000000" rotY="0.0000000" rotZ="114.4146000" color="36,2" />
+
+</map>

@@ -1,0 +1,10 @@
+<meta>
+    <script src="tuning.lua" type="server" />
+    <script src="zmiana_rejestracji.lua" type="server" />
+    <script src="zmiana_rejestracji_c.lua" type="client" />
+    <script src="tuning_c.lua" type="client" />
+    
+    <script src="t_zapis.lua" type="server" />
+    <script src="t_zapis_c.lua" type="client" />
+
+</meta>

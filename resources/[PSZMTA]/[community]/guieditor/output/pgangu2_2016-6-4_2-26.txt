@@ -1,0 +1,82 @@
+--[[-------------------------------------------------
+Notes:
+
+> This code is using a custom font. This will only work as long as the location it is from always exists, and the resource it is part of is running.
+    To ensure it does not break, it is highly encouraged to move custom fonts into your local resource and reference them there.
+--]]-------------------------------------------------
+
+
+GUIEditor = {
+    tab = {},
+    tabpanel = {},
+    edit = {},
+    button = {},
+    window = {},
+    label = {},
+    gridlist = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(117, 119, 1041, 502, "", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(9, 23, 1022, 426, false, GUIEditor.window[1])
+
+        GUIEditor.tab[1] = guiCreateTab("Członkowie", GUIEditor.tabpanel[1])
+
+        GUIEditor.gridlist[1] = guiCreateGridList(7, 8, 1005, 313, false, GUIEditor.tab[1])
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Nick", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Ranga", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Ostatnio w grze", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Ilość pieniędzy wpłacona do sejfu", 0.2)
+        guiGridListAddRow(GUIEditor.gridlist[1])
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 1, "-", false, false)
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 2, "-", false, false)
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 3, "-", false, false)
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 4, "-", false, false)
+        GUIEditor.button[1] = guiCreateButton(9, 331, 271, 60, "Dodaj gracza do gangu", false, GUIEditor.tab[1])
+        GUIEditor.button[2] = guiCreateButton(290, 331, 271, 60, "Wyrzuć gracza do gangu", false, GUIEditor.tab[1])
+        GUIEditor.button[3] = guiCreateButton(569, 332, 271, 59, "Edytuj gracza", false, GUIEditor.tab[1])
+
+        GUIEditor.tab[2] = guiCreateTab("Statystyki gangu", GUIEditor.tabpanel[1])
+
+        GUIEditor.label[1] = guiCreateLabel(280, 10, 501, 42, "Statystyki gangu:", false, GUIEditor.tab[2])
+        local font0_font = guiCreateFont(":psz-gui/font/font.ttf", 25)
+        guiSetFont(GUIEditor.label[1], font0_font)
+        guiLabelSetHorizontalAlign(GUIEditor.label[1], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+        GUIEditor.label[2] = guiCreateLabel(22, 77, 182, 15, "Ilość członków: 0", false, GUIEditor.tab[2])
+        GUIEditor.label[3] = guiCreateLabel(4, 52, 1014, 15, "______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________", false, GUIEditor.tab[2])
+        GUIEditor.label[4] = guiCreateLabel(22, 102, 198, 15, "Pieniądze zgromadzone w sejfie: 0$", false, GUIEditor.tab[2])
+        GUIEditor.label[5] = guiCreateLabel(22, 127, 248, 15, "Zarejestrowany na forum (Posiada logo): NIE.", false, GUIEditor.tab[2])
+        GUIEditor.label[6] = guiCreateLabel(22, 152, 260, 15, "Może ustawić skin gangowy?: NIE.", false, GUIEditor.tab[2])
+        GUIEditor.label[7] = guiCreateLabel(22, 177, 168, 15, "Posiada własną bazę?: NIE.", false, GUIEditor.tab[2])
+        GUIEditor.label[8] = guiCreateLabel(22, 202, 253, 17, "Poziom ulepszenia bazy: [WKRÓTCE]", false, GUIEditor.tab[2])
+        GUIEditor.label[9] = guiCreateLabel(22, 229, 261, 15, "Pozycja w rankingu ganów: ???", false, GUIEditor.tab[2])
+
+        GUIEditor.tab[3] = guiCreateTab("Zarządzaj gangiem", GUIEditor.tabpanel[1])
+
+        GUIEditor.edit[1] = guiCreateEdit(69, 86, 235, 25, "", false, GUIEditor.tab[3])
+        GUIEditor.label[10] = guiCreateLabel(339, 1, 414, 40, "Wpłata pieniędzy na rzecz gangu", false, GUIEditor.tab[3])
+        local font1_font = guiCreateFont(":psz-gui/font/font.ttf", 21)
+        guiSetFont(GUIEditor.label[10], font1_font)
+        guiLabelSetHorizontalAlign(GUIEditor.label[10], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[10], "center")
+        GUIEditor.label[11] = guiCreateLabel(0, 41, 1016, 18, "_______________________________________________________________________________________________________________________________________________________\n______________________________________________________________________________________________________________\n______________________________________________________________________________________________________________\n______________________________________________________________________________________________________________", false, GUIEditor.tab[3])
+        GUIEditor.label[12] = guiCreateLabel(15, 92, 44, 13, "Kwota:", false, GUIEditor.tab[3])
+        guiLabelSetHorizontalAlign(GUIEditor.label[12], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[12], "center")
+        GUIEditor.button[4] = guiCreateButton(322, 80, 132, 31, "Wpłać", false, GUIEditor.tab[3])
+        GUIEditor.label[13] = guiCreateLabel(482, 61, 534, 50, "UWAGA! Ta operacja jest nie odwracalna, pieniądze wpłacone do sejfu nie mogą być już z niego wyciągnięte. Pamiętaj że lider nie może Ci nakazywać wpłacać pieniędzy do sejfu! Robisz to z własnej woli.", false, GUIEditor.tab[3])
+        guiLabelSetColor(GUIEditor.label[13], 255, 0, 0)
+        guiLabelSetHorizontalAlign(GUIEditor.label[13], "left", true)
+        GUIEditor.label[14] = guiCreateLabel(0, 200, 1016, 18, "_______________________________________________________________________________________________________________________________________________________\n______________________________________________________________________________________________________________\n______________________________________________________________________________________________________________\n______________________________________________________________________________________________________________", false, GUIEditor.tab[3])
+        GUIEditor.label[15] = guiCreateLabel(339, 160, 414, 40, "Dostępne ulepszenia gangu:", false, GUIEditor.tab[3])
+        guiSetFont(GUIEditor.label[15], font1_font)
+        guiLabelSetHorizontalAlign(GUIEditor.label[15], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[15], "center")
+
+
+        GUIEditor.button[5] = guiCreateButton(9, 459, 305, 33, "Zamknij", false, GUIEditor.window[1])    
+    end
+)

@@ -1,0 +1,4 @@
+<meta> 
+	<script src="radary_c.lua" type="client" />
+	<script src="radary.lua" type="server" />
+</meta>

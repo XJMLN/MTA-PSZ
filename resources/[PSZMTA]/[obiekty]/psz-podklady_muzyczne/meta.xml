@@ -1,0 +1,6 @@
+<meta>
+	<file src="a/fam.ogg" />
+	<file src="a/o_mateusz.ogg" />
+	<file src="a/remix.ogg" />
+	<script src="muzyka_c.lua" type="client" />
+</meta>

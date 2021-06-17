@@ -1,0 +1,7 @@
+<meta>
+    <script src="warsztat.lua" type="server" />
+    <script src="warsztat_c.lua" type="client" />
+    <map src="interior.map" />
+
+    <sync_map_element_data>false</sync_map_element_data>
+</meta>

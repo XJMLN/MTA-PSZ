@@ -1,0 +1,6 @@
+<meta>
+	<map src="airlp.map" />
+	<script src="brama.lua" type="server" />
+	<sync_map_element_data>false</sync_map_element_data>
+
+</meta>

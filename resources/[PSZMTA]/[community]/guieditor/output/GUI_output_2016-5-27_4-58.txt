@@ -1,0 +1,22 @@
+
+GUIEditor = {
+    gridlist = {},
+    window = {},
+    button = {},
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(0.20, 0.27, 0.60, 0.54, "Montaż tuningu", true)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.label[1] = guiCreateLabel(0.04, 0.06, 0.91, 0.05, "Skrypt w fazie testów, wszelkie błędy zgłoś na forum. WWW.PSZMTA.PL", true, GUIEditor.window[1])
+        GUIEditor.gridlist[1] = guiCreateGridList(0.02, 0.17, 0.96, 0.58, true, GUIEditor.window[1])
+        guiGridListAddColumn(GUIEditor.gridlist[1], "ID części", 0.3)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Nazwa części", 0.3)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Cena ", 0.3)
+        GUIEditor.button[1] = guiCreateButton(0.02, 0.86, 0.40, 0.11, "Zamontuj", true, GUIEditor.window[1])
+        GUIEditor.label[2] = guiCreateLabel(0.02, 0.76, 0.96, 0.06, "UWAGA: Jeżeli montujesz system nagłośnienia, należy wybrać odtwarzany utwór.", true, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(0.62, 0.86, 0.36, 0.11, "Zamknij", true, GUIEditor.window[1])    
+    end
+)

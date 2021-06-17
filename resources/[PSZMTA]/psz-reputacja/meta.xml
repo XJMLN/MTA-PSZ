@@ -1,0 +1,10 @@
+<meta>
+	<script src="utils.lua" type="server" />
+	<script src="reputacja_c.lua" type="client" />
+    <script src="reputacja.lua" type="server" />
+    <script src="koscioly.lua" type="server" />
+    <file src="i/thumb_down.png" />
+    <file src="i/thumb_up.png" />
+    <file src="a/tada1.ogg" />
+    <file src="a/tada2.ogg" />
+</meta>

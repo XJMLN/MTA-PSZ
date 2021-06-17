@@ -1,0 +1,22 @@
+<meta>
+	<file src="s_general/i/empty.png" />
+	<file src="s_general/i/eq-1.png" />
+	<file src="s_clothes/i/a_left.png" />
+	<file src="s_clothes/i/a_right.png" />
+	
+	<script src="utils.lua" type="server" />
+	<script src="s_ammunation/ammo.lua" type="server" />
+	<script src="s_ammunation/ammo_c.lua" type="client" />
+
+	<script src="s_general/general.lua" type="server" />
+	<script src="s_general/general_c.lua" type="client" />
+	<script src="s_general/enter_c.lua" type="client" />
+
+	<script src="s_clothes/sklepy.lua" type="server" />
+	<script src="s_clothes/sklepy_c.lua" type="client" />
+
+	<map src="Na_zewnatrz.map" />
+	<map src="Interior.map" />
+	<sync_map_element_data>false</sync_map_element_data>
+
+</meta>

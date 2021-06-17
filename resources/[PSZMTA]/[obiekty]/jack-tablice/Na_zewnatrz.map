@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+<!-- TOP 10 DRIFT -->
+    <object id="object (nf_blackboard) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3077" doublesided="false" scale="1" dimension="0" posX="-2032.6" posY="143.89999" posZ="27.8" rotX="0" rotY="0" rotZ="90"></object>
+<!-- TOP 10 POSZUKIWACZY -->    
+    <object id="object (nf_blackboard) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3077" doublesided="false" scale="1" dimension="0" posX="2353.2" posY="-1459.5" posZ="23" rotX="0" rotY="0" rotZ="270"></object>
+</map>

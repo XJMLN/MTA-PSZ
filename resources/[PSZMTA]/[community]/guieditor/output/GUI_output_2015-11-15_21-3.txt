@@ -1,0 +1,10 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawImage(928, 184, 324, 526, ":test2/tlo.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+        dxDrawImage(962, 312, 84, 62, ":test2/kontakty.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+        dxDrawImage(953, 272, 273, 344, ":test2/tapeta.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+        dxDrawImage(958, 280, 84, 76, ":test2/kontakty.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+    end
+)

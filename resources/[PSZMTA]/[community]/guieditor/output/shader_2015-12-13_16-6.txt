@@ -1,0 +1,10 @@
+
+GUIEditor = {
+    window = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(986, 213, 284, 468, "Panel shaderów", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)    
+    end
+)

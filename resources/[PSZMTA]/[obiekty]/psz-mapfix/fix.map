@@ -1,0 +1,50 @@
+<map edf:definitions="editor_main">
+
+<!-- dziura w jednym z budynkow -->
+    <object id="object (a51_jetdoor) (1)" doublesided="true" model="3095" interior="0" dimension="0" posX="2526.66015625" posY="-1268.005859375" posZ="33.94718170166" rotX="0" rotY="179.99450683594" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (2)" doublesided="true" model="3095" interior="0" dimension="0" posX="2526.6591796875" posY="-1276.8583984375" posZ="33.948181152344" rotX="0" rotY="179.99450683594" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (3)" doublesided="true" model="3095" interior="0" dimension="0" posX="2534.8557128906" posY="-1276.8605957031" posZ="33.948181152344" rotX="0" rotY="179.99450683594" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (4)" doublesided="true" model="3095" interior="0" dimension="0" posX="2534.8532714844" posY="-1268.0093994141" posZ="33.94718170166" rotX="0" rotY="179.99450683594" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (1)" doublesided="true" model="16501" interior="0" dimension="0" posX="2532.296875" posY="-1270.359375" posZ="35.244071960449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (2)" doublesided="true" model="16501" interior="0" dimension="0" posX="2532.30078125" posY="-1276.5736083984" posZ="35.244071960449" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (3)" doublesided="true" model="16501" interior="0" dimension="0" posX="2528.8081054688" posY="-1267.0675048828" posZ="35.244071960449" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (cn2_savgardr2_) (4)" doublesided="true" model="16501" interior="0" dimension="0" posX="2525.6374511719" posY="-1267.0701904297" posZ="35.244071960449" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (cn2_savgardr2_) (5)" doublesided="true" model="16501" interior="0" dimension="0" posX="2525.3637695313" posY="-1279.0372314453" posZ="35.244071960449" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (cn2_savgardr2_) (6)" doublesided="true" model="16501" interior="0" dimension="0" posX="2531.9338378906" posY="-1279.0413818359" posZ="35.244071960449" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (a51_jetdoor) (5)" doublesided="true" model="3095" interior="0" dimension="0" posX="2526.6320800781" posY="-1276.8601074219" posZ="37.398216247559" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (6)" doublesided="true" model="3095" interior="0" dimension="0" posX="2526.6340332031" posY="-1271.4896240234" posZ="37.397216796875" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (7)" doublesided="true" model="3095" interior="0" dimension="0" posX="2534.9780273438" posY="-1271.4940185547" posZ="37.398216247559" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (8)" doublesided="true" model="3095" interior="0" dimension="0" posX="2534.8669433594" posY="-1276.8812255859" posZ="37.402214050293" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntgirldoor) (4)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.2858886719" posY="-1267.30859375" posZ="35.080875396729" rotX="6.1658630371094" rotY="354.6259765625" rotZ="180.57897949219"></object>
+    <object id="object (cuntgirldoor) (6)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.2836914063" posY="-1267.4357910156" posZ="36.580890655518" rotX="353.69857788086" rotY="359.49337768555" rotZ="180.54057312012"></object>
+    <object id="object (cuntgirldoor) (7)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.42578125" posY="-1268.5601806641" posZ="38.463905334473" rotX="290.80407714844" rotY="195.20483398438" rotZ="14.250457763672"></object>
+    <object id="object (cuntgirldoor) (8)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.4016113281" posY="-1268.0203857422" posZ="38.045883178711" rotX="275.34301757813" rotY="270.59527587891" rotZ="90"></object>
+    <object id="object (cuntgirldoor) (9)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.32421875" posY="-1267.0648193359" posZ="35.291843414307" rotX="359.32150268555" rotY="357.70626831055" rotZ="180.03614807129"></object>
+    <object id="object (cuntgirldoor) (10)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.3662109375" posY="-1270.1258544922" posZ="38.466903686523" rotX="275.68841552734" rotY="290.15032958984" rotZ="109.64602661133"></object>
+    <object id="object (cuntgirldoor) (11)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.3662109375" posY="-1270.125" posZ="38.466903686523" rotX="275.68542480469" rotY="290.14892578125" rotZ="109.6435546875"></object>
+    <object id="object (cuntgirldoor) (12)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.3518066406" posY="-1271.8374023438" posZ="38.519916534424" rotX="275.68542480469" rotY="290.14892578125" rotZ="109.6435546875"></object>
+    <object id="object (cuntgirldoor) (13)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.3227539063" posY="-1274.7135009766" posZ="38.505924224854" rotX="275.99185180664" rotY="242.99417114258" rotZ="62.27001953125"></object>
+    <object id="object (cuntgirldoor) (14)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.2797851563" posY="-1277.4948730469" posZ="38.385906219482" rotX="275.82369995117" rotY="246.09191894531" rotZ="65.383758544922"></object>
+    <object id="object (cuntgirldoor) (15)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.267578125" posY="-1277.716796875" posZ="38.347927093506" rotX="275.82275390625" rotY="246.08825683594" rotZ="65.379638671875"></object>
+    <object id="object (cuntgirldoor) (16)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.2253417969" posY="-1278.4056396484" posZ="36.768913269043" rotX="324.29040527344" rotY="183.64797973633" rotZ="2.6020202636719"></object>
+    <object id="object (cuntgirldoor) (17)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.2170410156" posY="-1279.8747558594" posZ="36.768913269043" rotX="324.28894042969" rotY="183.6474609375" rotZ="2.5982666015625"></object>
+    <object id="object (cuntgirldoor) (18)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.2021484375" posY="-1278.6479492188" posZ="36.059841156006" rotX="310.98297119141" rotY="184.45643615723" rotZ="3.8344421386719"></object>
+    <object id="object (cuntgirldoor) (19)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.1477050781" posY="-1278.4523925781" posZ="35.11190032959" rotX="340.27252197266" rotY="183.10198974609" rotZ="1.3461608886719"></object>
+    <object id="object (cuntgirldoor) (20)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.16015625" posY="-1278.7436523438" posZ="35.11190032959" rotX="340.2685546875" rotY="183.09814453125" rotZ="1.3458251953125"></object>
+    <object id="object (cuntgirldoor) (21)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.095703125" posY="-1278.1057128906" posZ="33.835887908936" rotX="10.231811523438" rotY="182.96328735352" rotZ="359.77212524414"></object>
+    <object id="object (cuntgirldoor) (22)" doublesided="true" model="3093" interior="0" dimension="0" posX="2522.1804199219" posY="-1277.5383300781" posZ="32.860877990723" rotX="25.501586914063" rotY="178.75122070313" rotZ="0.83319091796875"></object>
+    <object id="object (lampost_coast) (1)" doublesided="true" model="1223" interior="0" dimension="0" posX="2522.2844238281" posY="-1266.5655517578" posZ="33.136318206787" rotX="0" rotY="0" rotZ="90"></object>  
+<!-- dziury w LS -->
+    <object id="object (Gen_doorEXT06) (1)" breakable="true" interior="0" alpha="255" model="1504" doublesided="false" scale="1" dimension="0" posX="2401.7451" posY="-1714.54" posZ="13.12" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (1)" breakable="true" interior="0" alpha="255" model="16501" doublesided="false" scale="1" dimension="0" posX="2351.8" posY="-1171" posZ="26.7" rotX="90" rotY="0" rotZ="270"></object>
+
+
+<!-- dziury w LV-->
+    <object id="object (Gen_doorEXT03) (2)" breakable="true" interior="0" alpha="255" model="1498" doublesided="false" scale="1" dimension="0" posX="2036.51" posY="2721.3501" posZ="10.55" rotX="0" rotY="0" rotZ="0"></object>
+        <object id="object (ADAM_V_DOOR) (1)" breakable="true" interior="0" alpha="255" model="1569" doublesided="false" scale="1" dimension="0" posX="1408.6" posY="1896.3" posZ="10.5" rotX="0" rotY="0" rotZ="90"></object>
+
+<!-- dziura bank fc -->
+    <object id="object (lift_dr) (1)" breakable="true" interior="0" alpha="255" model="3051" doublesided="false" scale="1" dimension="0" posX="-180.7" posY="1128.8" posZ="20.1" rotX="0" rotY="0" rotZ="46.5"></object>
+    <object id="object (lift_dr) (2)" breakable="true" interior="0" alpha="255" model="3051" doublesided="false" scale="1" dimension="0" posX="-180.10001" posY="1129.4" posZ="20.1" rotX="0" rotY="0" rotZ="316.5"></object>
+
+</map>

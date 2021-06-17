@@ -1,0 +1,7 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawText("Rekrutacja na moderatora otwarta! www.craftbos.pl", 10, 699, 974, 746, tocolor(0, 0, 0, 255), 0.50, "bankgothic", "left", "top", false, false, false, false, false)
+    end
+)

@@ -1,0 +1,35 @@
+<meta>
+<include resource="psz-mysql" />
+	<script src="saveplayers.lua" type="server" />
+	<script src="anims.lua" type="server" />
+    	<script src="anims_c.lua" type="client" />
+	<script src="id_graczy.lua" type="server" />
+	<script src="cmd_player.lua" type="client" />
+	<script src="cmd_misc.lua" type="server" />
+	<script src="kary.lua" type="server" />
+	<script src="main.lua" type="server" />
+	<script src="utils.lua" type="server" />
+	<script src="server_stats.lua" type="server" />
+	<script src="pm.lua" type="server" /> 
+
+	<script src="chats.lua" type="server" />
+        <script src="chats_c.lua" type="client" />
+	<script src="base.lua" type="server" />
+        <script src="bany.lua" type="server" />
+	<script src="auth.lua" type="server" />
+	<script src="intro.lua" type="server" />
+	<script src="saveplayers.lua" type="server" />
+	<script src="totemy.lua" type="server" />
+        <script src="areny.lua" type="server" />
+	<script src="interiors.lua" type="server" />
+	<script src="abilities.lua" type="server" />
+	<script src="drugs.lua" type="server" />
+
+<export type="server" function="getInterior"/>
+<export type="server" function="getPlayerDBID"/>
+<export type="server" function="savePlayerData"/>
+<export type="server" function="findPlayer"/>
+<export type="server" function="var_dump"/>
+<export type="client" function="var_dump"/>
+<export type="server" function="changeNicknameColor"/>
+</meta>

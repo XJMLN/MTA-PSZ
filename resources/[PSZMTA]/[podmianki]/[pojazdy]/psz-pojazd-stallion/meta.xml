@@ -1,0 +1,7 @@
+<meta>
+	<file src="stallion.dff"/>
+	<file src="stallion.txd"/>
+	
+	<script src="replace.lua" type="client" />
+
+</meta>

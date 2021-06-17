@@ -1,0 +1,19 @@
+--[[-------------------------------------------------
+Notes:
+
+> This code is using a custom font. This will only work as long as the location it is from always exists, and the resource it is part of is running.
+    To ensure it does not break, it is highly encouraged to move custom fonts into your local resource and reference them there.
+--]]-------------------------------------------------
+
+
+
+local dxfont0_font = dxCreateFont(":psz-gui/font/font.ttf", 26)
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawRectangle(160, 28, 478, 51, tocolor(0, 0, 0, 254), false)
+        dxDrawText("Kupno PREMIUM", 249, 28, 545, 78, tocolor(255, 255, 255, 255), 1.00, dxfont0_font, "center", "center", false, false, false, false, false)
+        dxDrawRectangle(162, 79, 476, 306, tocolor(0, 0, 0, 133), false)
+        dxDrawRectangle(594, 28, 44, 46, tocolor(38, 38, 38, 171), false)
+    end
+)

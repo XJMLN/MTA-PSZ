@@ -1,0 +1,6 @@
+<meta>
+	<file src="admiral.txd" />
+	<file src="admiral.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

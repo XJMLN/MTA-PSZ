@@ -1,0 +1,6 @@
+<meta>
+	<file src="jester.txd" />
+	<file src="jester.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

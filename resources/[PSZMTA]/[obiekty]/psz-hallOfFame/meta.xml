@@ -1,0 +1,4 @@
+<meta>
+     <script src="Interior.luac" type="client" />
+     <script src="Na_zewnatrz.luac" type="client" />
+</meta>

@@ -1,0 +1,26 @@
+<meta>
+	<script src="replace.lua" type="client" />
+
+	<file src="79.dff"/>
+	<file src="79.txd"/>
+	<file src="80.dff"/>
+	<file src="80.txd"/>
+	<file src="81.dff"/>
+	<file src="81.txd"/>
+	<file src="82.dff"/>
+	<file src="82.txd"/>
+	<file src="83.dff"/>
+	<file src="83.txd"/>
+	<file src="22.dff"/>
+	<file src="22.txd"/>
+	<file src="85.dff"/>
+	<file src="85.txd"/>
+	<file src="120.dff"/>
+	<file src="120.txd"/>
+	<file src="121.dff"/>
+	<file src="121.txd"/>
+	<file src="191.dff"/>
+	<file src="191.txd"/>
+	<file src="307.dff"/>
+	<file src="307.txd"/>
+</meta>

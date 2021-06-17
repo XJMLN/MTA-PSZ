@@ -1,0 +1,20 @@
+<meta>
+<include resource="psz-core" />
+
+<script src="utils.lua" type="server" />
+<script src="base.lua" type="server" />
+
+
+<script src="cmd_admin.lua" type="server" />
+<script src="cmd_moderator.lua" type="server" />
+<script src="func_moderator.lua" type="server" />
+<script src="server_view.lua" type="server" />
+<export function="gameView_add" type="server" />
+<export function="msgToSupport" type="server" />
+    <export function="reportView_add" type="server" />
+        <export function="adminView_add" type='server' />
+        <export function="outputLog" type="server" />
+            <script src="reports.lua" type="server" />
+
+            <script src="logging.lua" type="server" />
+            </meta>

@@ -1,0 +1,13 @@
+
+GUIEditor = {
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.label[1] = guiCreateLabel(530, 396, 253, 32, "Premier - 13599, ostatni kierowca 44549\npaliwo: 16.8/25.0", false)
+
+
+        GUIEditor.label[2] = guiCreateLabel(428, 404, 102, 14, "Tryb: Usuń", false)
+        guiLabelSetColor(GUIEditor.label[2], 211, 0, 0)    
+    end
+)

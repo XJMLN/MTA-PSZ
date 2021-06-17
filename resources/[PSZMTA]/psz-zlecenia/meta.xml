@@ -1,0 +1,4 @@
+<meta>
+	<script src='pozycje_c.lua' type='client' />
+	<script src='zlecenia_c.lua' type='client' />
+</meta>

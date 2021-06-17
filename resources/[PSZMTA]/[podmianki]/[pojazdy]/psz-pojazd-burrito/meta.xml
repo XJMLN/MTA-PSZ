@@ -1,0 +1,6 @@
+<meta>
+	<file src="burrito.txd" />
+	<file src="burrito.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

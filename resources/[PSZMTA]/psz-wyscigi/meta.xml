@@ -1,0 +1,7 @@
+<meta>
+	<script src="races_init.lua" type="server" />
+	<script src="races_main.lua" type="server" />
+	<script src="utils_c.lua" type="client" />
+	<script src="races_c.lua" type="client" />
+	<script src="races_init_c.lua" type="client" />
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+	<script src="defs_c.lua" type="client" />
+	<script src="defs.lua" type="server" />
+	<script src="gangs.lua" type="server" />
+	<script src="gangs_zarzadzanie_c.lua" type="client" />
+	<script src="gangs_strefy.lua" type="server" />
+	<script src="gangs_strefy_c.lua" type="client" />
+	<script src="gangs_zarzadzanie.lua" type="server" />
+</meta>

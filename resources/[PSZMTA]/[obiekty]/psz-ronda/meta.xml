@@ -1,0 +1,9 @@
+<meta>
+    
+<script src="map.luac" type="client" />
+
+
+<map src="ronda.map" />
+<sync_map_element_data>false</sync_map_element_data>
+
+</meta>

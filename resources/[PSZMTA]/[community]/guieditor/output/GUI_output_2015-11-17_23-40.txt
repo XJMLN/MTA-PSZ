@@ -1,0 +1,22 @@
+--[[-------------------------------------------------
+Notes:
+
+> This code is using a relative image filepath. This will only work as long as the location it is from always exists, and the resource it is part of is running.
+    To ensure it does not break, it is highly encouraged to move images into your local resource and reference them there.
+--]]-------------------------------------------------
+
+
+GUIEditor = {
+    staticimage = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.staticimage[1] = guiCreateStaticImage(916, 211, 263, 499, ":test2/tlo.png", false)
+
+        GUIEditor.staticimage[2] = guiCreateStaticImage(21, 85, 220, 328, ":test2/tapeta.png", false, GUIEditor.staticimage[1])
+
+        GUIEditor.staticimage[3] = guiCreateStaticImage(111, 0, 101, 78, ":test2/kontakty.png", false, GUIEditor.staticimage[2])
+        GUIEditor.staticimage[4] = guiCreateStaticImage(10, 0, 101, 78, ":test2/youtube.png", false, GUIEditor.staticimage[2])
+        GUIEditor.staticimage[5] = guiCreateStaticImage(10, 78, 101, 78, ":test2/radio.png", false, GUIEditor.staticimage[2])    
+    end
+)

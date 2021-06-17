@@ -1,0 +1,13 @@
+<meta>
+	<file src="audio/fx-kosciol.ogg" />
+
+	<script src="kosciol_muzyka.lua" type="client" />
+
+	<script src="Exteriory/e_kosciolLV.luac" type="client" />
+	<script src="Exteriory/e_kosciolSF.luac" type="client" />
+	<script src="Exteriory/e_kosciolLS.luac" type="client" />
+	
+	<script src="Interiory/i_kosciolLS.luac" type="client" />
+	<script src="Interiory/i_kosciolLV.luac" type="client" />
+	<script src="Interiory/i_kosciolSF.luac" type="client" />
+</meta>

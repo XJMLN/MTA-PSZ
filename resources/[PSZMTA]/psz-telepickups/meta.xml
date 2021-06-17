@@ -1,0 +1,6 @@
+<meta>
+	<include resource="psz-mysql" />
+	<script src="util.lua" type="server" />
+	<script src="telepickups.lua" type="server" />
+        <script src="przejscia.lua" type="server" />
+</meta>

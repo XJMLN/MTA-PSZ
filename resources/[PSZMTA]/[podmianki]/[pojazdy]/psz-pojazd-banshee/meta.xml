@@ -1,0 +1,7 @@
+<meta>
+	<file src="banshee.dff"/>
+	<file src="banshee.txd"/>
+	
+	<script src="replace.lua" type="client" />
+
+</meta>

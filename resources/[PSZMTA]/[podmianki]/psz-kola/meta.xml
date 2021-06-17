@@ -1,0 +1,25 @@
+<meta>	
+	<script src="wheel.lua" type="client" />
+
+	<file src="wheel/fm3_wheels.txd" />
+	<file src="wheel/wheel_gn1.dff" />
+        <file src="wheel/wheel_gn2.dff" />
+        <file src="wheel/wheel_gn3.dff" />
+        <file src="wheel/wheel_gn4.dff" />
+        <file src="wheel/wheel_gn5.dff" />
+        <file src="wheel/wheel_lr1.dff" />
+        <file src="wheel/wheel_lr2.dff" />
+        <file src="wheel/wheel_lr3.dff" />
+        <file src="wheel/wheel_lr4.dff" />
+        <file src="wheel/wheel_lr5.dff" />
+        <file src="wheel/wheel_or1.dff" />
+		<file src="wheel/wheel_or1.txd" />
+        <file src="wheel/wheel_sr1.dff" />
+        <file src="wheel/wheel_sr2.dff" />
+        <file src="wheel/wheel_sr3.dff" />
+        <file src="wheel/wheel_sr4.dff" />
+        <file src="wheel/wheel_sr5.dff" />
+        <file src="wheel/wheel_sr6.dff" />
+
+</meta>
+

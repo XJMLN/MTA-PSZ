@@ -1,0 +1,30 @@
+<meta>
+    <script src="replace.lua" type="client" />
+
+    <file src="txd/ak47.txd" />
+    <file src="txd/ak47.dff" />
+    <file src="txd/colt45.txd" />
+    <file src="txd/colt45.dff" />
+    <file src="txd/m4.txd" />
+    <file src="txd/m4.dff" />
+    <file src="txd/mp5lng.txd" />
+    <file src="txd/mp5lng.dff" />
+    <file src="txd/shotgspa.txd" />
+    <file src="txd/shotgspa.dff" />
+    <file src="txd/sniper.txd" />
+    <file src="txd/sniper.dff" />
+    <file src="txd/micro_uzi.txd" />
+    <file src="txd/micro_uzi.dff" />
+    <file src="txd/tec9.txd" />
+    <file src="txd/tec9.dff" />
+    <file src="txd/desert_eagle.txd" />
+    <file src="txd/desert_eagle.dff" />
+    <file src="txd/sawnoff.txd" />
+    <file src="txd/sawnoff.dff" />
+    <file src="txd/crifle.txd" />
+    <file src="txd/crifle.dff" />		
+    <file src="txd/chromegun.txd" />
+    <file src="txd/chromegun.dff" />	
+    <file src="txd/silenced.txd" />
+    <file src="txd/silenced.dff" />	
+</meta>

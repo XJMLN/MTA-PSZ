@@ -1,0 +1,6 @@
+<meta>
+	<script src="replace.lua" type="client" />
+
+	<file src="walton.txd" />
+	<file src="walton.dff" />
+</meta>

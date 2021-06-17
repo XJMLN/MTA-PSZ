@@ -1,0 +1,37 @@
+<meta>
+    <file src="SpeedCamera1.dff" />
+    <file src="SpeedCamera1.txd" />
+    <file src="SpeedCamera1.col" />
+    <file src="MatTextures.txd" />
+    <file src="RedNeonTube1.dff" />
+    <file src="RedNeonTube1.col" />
+    <file src="BlueNeonTube1.dff" />
+    <file src="BlueNeonTube1.col" />
+    <file src="GreenNeonTube1.dff" />
+    <file src="GreenNeonTube1.col" />
+    <file src="YellowNeonTube1.dff" />
+    <file src="YellowNeonTube1.col" />
+    <file src="PinkNeonTube1.dff" />
+    <file src="PinkNeonTube1.col" />
+    <file src="WhiteNeonTube1.dff" />
+    <file src="WhiteNeonTube1.col" />
+	<!--file src="santa.dff" />
+    <file src="santa.txd" /-->
+    <file src="captruck.txd" />
+    <file src="captruck.dff" />
+
+    <!--file src="textures.txd" />
+    <file src="4,5.col" />
+    <file src="4,5.dff" />
+    <file src="curved.col" />
+    <file src="curved.dff" />
+    <file src="end.col" />
+    <file src="end.dff" />
+    <file src="stright.col" />
+    <file src="stright.dff" />
+    <file src="triple.col" />
+    <file src="triple.dff" /-->        
+
+    <script src="replace.lua" type="client" />
+    <!--script src="pipe_c.lua" type="client" /-->
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+	<file src="infernus.dff" />
+	<file src="infernus.txd" />
+
+	<script src="replace.lua" type="client" />
+
+</meta>

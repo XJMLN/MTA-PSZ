@@ -1,0 +1,18 @@
+<meta>
+	<script src="spawner_pojazdow.lua" type="server" />   
+    <script src="pojazdy.lua" type="server" />    
+    <script src="vehicles.lua" type="server" />    
+<script src="vehicles_c.lua" type='client' />
+<script src="vehicles_gangs.lua" type="server" />
+
+    <export function="createVehicleEx" type="server" />
+	<export function="unregisterVehicle" type="server" />
+    <export function="tsave_createVeh" type="server" />
+    <export function="veh_save" type="server" />
+	
+    <export function="veh_load" type="server" />
+    <export function="veh_reload" type="server" />
+    <export function="assignVehicleToOwner" type="server" />
+    <export function="graczMaKlucze" type="client" />
+    <export function="spVIP_createVeh" type="server" />
+</meta>

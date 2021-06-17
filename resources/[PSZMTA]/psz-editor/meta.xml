@@ -1,0 +1,8 @@
+<meta>
+	<script src="data_c.lua" type="client" />
+	<script src="matrix.lua" type="client" />
+	<script src="utils_c.lua" type="client" />
+	<script src="editor_c.lua" type="client" />
+	<script src="editor.lua" type="server" />
+
+</meta>

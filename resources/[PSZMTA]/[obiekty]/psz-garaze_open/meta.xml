@@ -1,0 +1,4 @@
+<meta>
+    <script src="garage.lua" type="server" />
+    <script src="garage_c.lua" type="client" />
+</meta>

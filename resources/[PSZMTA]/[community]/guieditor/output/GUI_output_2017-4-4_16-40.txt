@@ -1,0 +1,23 @@
+
+GUIEditor = {
+    edit = {},
+    button = {},
+    window = {},
+    label = {},
+    memo = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(164, 106, 502, 281, "Pozdrowienia", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.label[1] = guiCreateLabel(0, 31, 71, 27, "     Treść:", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[1], "default-bold-small")
+        GUIEditor.edit[1] = guiCreateEdit(69, 34, 389, 144, "test test test test test", false, GUIEditor.window[1])
+        GUIEditor.label[2] = guiCreateLabel(0, 209, 69, 24, "     Podpis:", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[2], "default-bold-small")
+        GUIEditor.button[1] = guiCreateButton(9, 233, 61, 38, "Anuluj", false, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(427, 234, 60, 37, "Wyślij", false, GUIEditor.window[1])
+        GUIEditor.memo[1] = guiCreateMemo(68, 211, 390, 22, "test adasdasdasd", false, GUIEditor.window[1])    
+    end
+)

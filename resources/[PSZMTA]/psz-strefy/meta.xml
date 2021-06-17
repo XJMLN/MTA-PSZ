@@ -1,0 +1,5 @@
+<meta>
+	<!--script src="n_strefy.lua" type="client" /-->
+	<script src='strefy.lua' type='server' />
+	<script src="strefy_c.lua" type="client" />
+</meta>

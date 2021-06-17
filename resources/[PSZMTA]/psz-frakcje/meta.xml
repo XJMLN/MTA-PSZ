@@ -1,0 +1,21 @@
+<meta>
+	<script src="utils.lua" type="server" />
+
+    <script src="frakcje.lua" type="server" />
+    <script src="frakcje_c.lua" type="client" />
+    <!--script src="policja.lua" type="server" />
+    <script src="policja_c.lua" type="client" />
+    <script src="straz.lua" type="server" />
+    <script src="straz_c.lua" type="client" />
+    <script src="medyk.lua" type="server" />
+    <script src="medyk_c.lua" type="client" />
+
+    <script src="cnn.lua" type="server" />
+    <script src="cnn_c.lua" type="client" /-->
+
+    <script src="vehicles.lua" type="server" />
+
+    <export function="updateAllTxt" type="server" />
+    <export function="setTxtByFID" type="server" />
+    <export function="frakcje_playerStopJob" type="server" />
+</meta>

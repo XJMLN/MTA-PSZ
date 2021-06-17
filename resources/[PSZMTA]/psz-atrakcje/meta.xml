@@ -1,0 +1,7 @@
+﻿<meta>
+  <script src="main.lua" type="server" />
+  <!--script src="tdm/tdm.lua" type="server" /-->
+  <script src="zrzuty/zrzuty.lua" type="server" />
+  <!--script src="zrzuty/zrzuty_c.lua" type="client" /-->
+  
+</meta>

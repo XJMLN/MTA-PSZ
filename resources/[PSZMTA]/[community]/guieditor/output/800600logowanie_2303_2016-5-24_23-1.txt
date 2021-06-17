@@ -1,0 +1,12 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawLine(89 - 1, 153 - 1, 89 - 1, 447, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(712, 153 - 1, 89 - 1, 153 - 1, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(89 - 1, 447, 712, 447, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(712, 447, 712, 153 - 1, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawRectangle(89, 153, 623, 294, tocolor(0, 0, 0, 220), false)
+        dxDrawImage(79, 90, 500, 100, ":guieditor/images/examples/mtalogo.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+    end
+)

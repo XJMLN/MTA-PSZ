@@ -1,0 +1,16 @@
+<meta>
+	<script src="replace.lua" type="client" />
+
+	<file src="mesa.dff"/>
+	<file src="mesa.txd"/>
+	<file src="bandito.dff"/>
+	<file src="bandito.txd"/>
+	<file src="bfinject.dff"/>
+	<file src="bfinject.txd"/>
+	<file src="infernus.txd"/>
+	<file src="infernus.dff"/>
+	<file src="quad.txd" />
+	<file src="quad.dff" />
+	<file src="nrg500.txd" />
+	<file src="nrg500.dff" />
+</meta>

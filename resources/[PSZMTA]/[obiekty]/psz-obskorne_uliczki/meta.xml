@@ -1,0 +1,5 @@
+<meta>
+    <script src="map.luac" type="client" />
+<map src="map.map" />
+<sync_map_element_data>false</sync_map_element_data>
+</meta>

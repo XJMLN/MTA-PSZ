@@ -1,0 +1,11 @@
+<meta>
+
+<script src="dane.lua" type="client"/>
+
+<script src="ustaw.lua" type="client"/>
+
+<export type="client" function="menuUstaw"/>
+
+<script src="spool.lua" type="server"/>
+
+</meta>

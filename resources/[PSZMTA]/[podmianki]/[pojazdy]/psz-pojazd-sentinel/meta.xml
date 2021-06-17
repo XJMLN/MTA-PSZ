@@ -1,0 +1,6 @@
+<meta>
+	<file src="premier.txd" />
+	<file src="premier.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

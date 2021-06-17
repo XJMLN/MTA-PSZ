@@ -1,0 +1,6 @@
+<meta>
+	<file src="washing.dff"/>
+	<file src="washing.txd"/>
+
+	<script src="replace.lua" type="client" />
+</meta>

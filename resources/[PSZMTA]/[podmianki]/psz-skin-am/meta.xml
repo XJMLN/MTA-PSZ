@@ -1,0 +1,10 @@
+<meta>
+	<file src="skin_1.txd" />
+	<file src="skin_1.dff" />
+	<file src="skin_2.txd" />
+	<file src="skin_2.dff" />
+		<file src="skin_4.txd" />
+	<file src="skin_4.dff" />
+	
+	<script src='replace.lua' type='client' />
+</meta>

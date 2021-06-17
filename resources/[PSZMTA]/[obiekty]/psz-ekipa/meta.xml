@@ -1,0 +1,7 @@
+<meta>
+    <script src="wybory.lua" type="server" />
+    <script src="open_wallet.lua" type="server" />
+    <script src="open_wallet_c.lua" type="client" />
+    <script src="wybory_c.lua" type="client" />
+    <script src="texty.lua" type="client" />
+</meta>

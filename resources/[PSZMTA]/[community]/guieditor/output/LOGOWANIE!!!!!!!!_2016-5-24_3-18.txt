@@ -1,0 +1,47 @@
+
+GUIEditor = {
+    button = {},
+    label = {},
+    edit = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.button[1] = guiCreateButton(339, 451, 276, 37, "Zaloguj", false)
+
+
+        GUIEditor.button[2] = guiCreateButton(657, 451, 276, 37, "Zarejestruj ", false)
+
+
+        GUIEditor.label[1] = guiCreateLabel(337, 259, 250, 15, "Login / Nick :", false)
+        guiLabelSetHorizontalAlign(GUIEditor.label[1], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+
+
+        GUIEditor.label[2] = guiCreateLabel(337, 357, 250, 15, "Hasło :", false)
+        guiLabelSetHorizontalAlign(GUIEditor.label[2], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[2], "center")
+
+
+        GUIEditor.label[3] = guiCreateLabel(625, 242, 317, 170, "Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker", false)
+        guiLabelSetHorizontalAlign(GUIEditor.label[3], "left", true)
+
+
+        GUIEditor.edit[1] = guiCreateEdit(337, 284, 250, 27, "", false)
+
+
+        GUIEditor.edit[2] = guiCreateEdit(337, 382, 250, 30, "", false)    
+    end
+)
+
+local screenW, screenH = guiGetScreenSize()
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawLine(329 - 1, 213 - 1, 329 - 1, 507, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(952, 213 - 1, 329 - 1, 213 - 1, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(329 - 1, 507, 952, 507, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(952, 507, 952, 213 - 1, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawRectangle((screenW - 623) / 2, (screenH - 294) / 2, 623, 294, tocolor(0, 0, 0, 220), false)
+        dxDrawImage(319, 149, 500, 100, ":guieditor/images/examples/mtalogo.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+    end
+)

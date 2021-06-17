@@ -1,0 +1,7 @@
+<meta>
+	<file src="i/a_right.png" />
+	<file src="i/a_left.png" />
+
+	<script src="sklepy.lua" type="server" />
+	<script src="sklepy_c.lua" type="client" />
+</meta>

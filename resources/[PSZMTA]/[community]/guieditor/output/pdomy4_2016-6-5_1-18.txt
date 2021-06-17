@@ -1,0 +1,20 @@
+
+GUIEditor = {
+    tab = {},
+    window = {},
+    tabpanel = {},
+    button = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(0.19, 0.22, 0.58, 0.62, "", true)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(0.01, 0.05, 0.97, 0.80, true, GUIEditor.window[1])
+
+        GUIEditor.tab[1] = guiCreateTab("Kup dom", GUIEditor.tabpanel[1])
+        GUIEditor.tab[2] = guiCreateTab("Zarządzanie domem", GUIEditor.tabpanel[1])
+
+        GUIEditor.button[1] = guiCreateButton(0.01, 0.86, 0.33, 0.11, "", true, GUIEditor.window[1])    
+    end
+)

@@ -1,0 +1,8 @@
+<meta>
+<file src="disc.png" /><file src="Background.png" />
+
+<file src="disc2.png" />
+<file src="needle.png" />
+
+<script src="speedo.lua" type="client" />
+</meta>

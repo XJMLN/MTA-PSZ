@@ -1,0 +1,5 @@
+<meta>
+	<file src="sam_fenc.col" />
+
+	<script src="replace.lua" type="client" />
+</meta>

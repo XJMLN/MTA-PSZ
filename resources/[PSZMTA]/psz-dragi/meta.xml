@@ -1,0 +1,4 @@
+<meta>
+	<script src="drags.lua" type="server" />
+	<script src="drags_c.lua" type="client" />
+</meta>

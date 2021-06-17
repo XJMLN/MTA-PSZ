@@ -1,0 +1,7 @@
+<meta>
+    <script src="map.luac" type="client" />
+
+<map src="Interior.map" />
+<map src="Na_serce.map" />
+<sync_map_element_data>false</sync_map_element_data>
+</meta>

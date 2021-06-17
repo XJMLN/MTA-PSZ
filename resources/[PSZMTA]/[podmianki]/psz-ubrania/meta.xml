@@ -1,0 +1,6 @@
+<meta>
+<file src='tshirtwhite.txd' />
+<file src='sweatrstar.txd' />
+<file src='tshirtproblk.txd' />
+<script src="replace.lua" type='client' />
+</meta>

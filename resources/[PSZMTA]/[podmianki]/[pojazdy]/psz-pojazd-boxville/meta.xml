@@ -1,0 +1,6 @@
+<meta>
+	<file src="journey.txd" />
+	<file src="journey.dff" />
+
+	<script src='replace.lua' type='client' />
+</meta>

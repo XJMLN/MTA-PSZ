@@ -1,0 +1,5 @@
+<meta>
+	<script src="drift.lua" type="server"/>
+	<script src="utils.lua" type="client"/>
+	<script src="drift_c.lua" type="client" />
+</meta>

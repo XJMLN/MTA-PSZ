@@ -1,0 +1,9 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawRectangle(75, 67, 671, 377, tocolor(0, 0, 0, 201), false)
+        dxDrawRectangle(75, 67, 671, 24, tocolor(0, 0, 0, 239), false)
+        dxDrawText("Wybór areny", 74, 67, 746, 91, tocolor(255, 255, 255, 255), 1.00, "default", "left", "top", false, false, false, false, false)
+    end
+)

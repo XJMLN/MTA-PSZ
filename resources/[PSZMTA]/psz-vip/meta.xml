@@ -1,0 +1,4 @@
+<meta>
+	<script src="api_c.lua" type="client" />
+	<script src="api.lua" type="server" />
+</meta>

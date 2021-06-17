@@ -1,0 +1,50 @@
+--[[-------------------------------------------------
+Notes:
+
+> This code is using a relative image filepath. This will only work as long as the location it is from always exists, and the resource it is part of is running.
+    To ensure it does not break, it is highly encouraged to move images into your local resource and reference them there.
+--]]-------------------------------------------------
+
+
+GUIEditor = {
+    checkbox = {},
+    staticimage = {},
+    label = {},
+    button = {},
+    window = {},
+    combobox = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(248, 100, 760, 592, "Konto PREMIUM", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+        guiSetAlpha(GUIEditor.window[1], 1.00)
+
+        GUIEditor.label[1] = guiCreateLabel(8, 20, 742, 108, "Aby doładować konto PREMIUM na którym obecnie jesteś zalogowany/a, musisz spełnić następujące warunki:\n Posiadanie konta na serwerze, przeczytanie regulaminu świadczenia usług oraz zapoznanie się z instrukcją.\n\nUpewnij się, że wprowadzony kod jest poprawny oraz że nie został już użyty. Jeśli jesteś pewny że robisz wszystko prawidłowo,\n skontaktuj się na serwerze z administratorem ROOT.\n\nKonto premium zostaje nałożone do 24 godzin od wprowadzenia kodu z SMS na serwer.Konto wygasa po 30 dniach od nałożenia rangi!", false, GUIEditor.window[1])
+        GUIEditor.staticimage[1] = guiCreateStaticImage(641, 558, 109, 24, ":test2/radio.png", false, GUIEditor.window[1])
+        GUIEditor.button[1] = guiCreateButton(18, 532, 137, 50, "Regulamin płatności", false, GUIEditor.window[1])
+        GUIEditor.label[2] = guiCreateLabel(601, 533, 149, 15, "Płatność obsługuje serwis:", false, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(161, 532, 139, 50, "Instrukcja", false, GUIEditor.window[1])
+        GUIEditor.button[3] = guiCreateButton(310, 533, 132, 49, "Zamknij", false, GUIEditor.window[1])
+        GUIEditor.checkbox[1] = guiCreateCheckBox(14, 172, 15, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[3] = guiCreateLabel(34, 172, 502, 15, "Chcę doładować konto PREMIUM dla gracza        , na którym jestem obecnie zalogowany/a.", false, GUIEditor.window[1])
+        GUIEditor.checkbox[2] = guiCreateCheckBox(14, 218, 16, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[4] = guiCreateLabel(35, 218, 501, 15, "Zapoznałem/am się z regulaminem świadczenia usługi i akceptuję go.", false, GUIEditor.window[1])
+        GUIEditor.checkbox[3] = guiCreateCheckBox(14, 251, 16, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[5] = guiCreateLabel(34, 252, 502, 14, "Zapoznałem/am się z instrukcją nadania konta PREMIUM.", false, GUIEditor.window[1])
+        GUIEditor.label[6] = guiCreateLabel(110, 306, 90, 15, "Wybrana usługa:", false, GUIEditor.window[1])
+        GUIEditor.combobox[1] = guiCreateComboBox(210, 306, 284, 52, "30 dni konta PREMIUM", false, GUIEditor.window[1])
+        guiComboBoxAddItem(GUIEditor.combobox[1], "30 dni konta PREMIUM")
+        GUIEditor.label[7] = guiCreateLabel(14, 376, 158, 15, "Wyślij SMS o treści:", false, GUIEditor.window[1])
+        GUIEditor.label[8] = guiCreateLabel(14, 408, 96, 18, "TC.NSHOOT.6643", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[8], "default-bold-small")
+        guiSetProperty(GUIEditor.label[8], "Size", "w:0.126316 h:0.030405")
+        guiLabelSetColor(GUIEditor.label[8], 255, 0, 0)
+        GUIEditor.label[9] = guiCreateLabel(258, 376, 70, 15, "Pod numer:", false, GUIEditor.window[1])
+        GUIEditor.label[10] = guiCreateLabel(258, 408, 125, 15, "79068", false, GUIEditor.window[1])
+        guiLabelSetColor(GUIEditor.label[10], 255, 0, 0)
+        GUIEditor.label[11] = guiCreateLabel(494, 376, 204, 15, "Koszt SMSa (brutto):", false, GUIEditor.window[1])
+        GUIEditor.label[12] = guiCreateLabel(489, 409, 177, 14, "11.07zł", false, GUIEditor.window[1])
+        guiLabelSetColor(GUIEditor.label[12], 255, 0, 0)    
+    end
+)

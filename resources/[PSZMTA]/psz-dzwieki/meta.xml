@@ -1,0 +1,13 @@
+<meta>
+<file src="fd-syrena.ogg" />
+<file src="audio/seks.ogg" />
+<file src="audio/audiodump.ogg" />
+<file src="audio/stolat.ogg" />
+<file src="audio/patrzjakikurwaszwagier.mp3" />
+<file src="audio/ox.ogg" />
+<file src="audio/trzesienie.ogg" type="client" />     
+<script src="dzwieki.lua" type="server" />
+<script src="dzwieki_c.lua" type="client" />
+<script src="fd-syrena_c.lua" type="client" />
+<script src="fd-syrena.lua" type="server" />
+</meta>

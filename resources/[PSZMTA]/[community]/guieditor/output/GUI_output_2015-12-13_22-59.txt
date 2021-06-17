@@ -1,0 +1,15 @@
+
+GUIEditor = {
+    checkbox = {},
+    window = {},
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(986, 213, 284, 468, "Panel shaderów", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.checkbox[1] = guiCreateCheckBox(10, 111, 15, 15, "", true, false, GUIEditor.window[1])
+        GUIEditor.label[1] = guiCreateLabel(7, 42, 267, 59, " Uwaga! Jeśli włączysz któryś z shaderów Może\n on obniżyć wydajność Twojej gry. Shadery nie\n są obowiązkowe, włączasz je dla upiększenia gry", false, GUIEditor.window[1])    
+    end
+)

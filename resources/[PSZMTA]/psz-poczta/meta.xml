@@ -1,0 +1,11 @@
+<meta>
+	<script src='poczta.lua' type='server' />
+	<script src='poczta_dostarczanie.lua' type='server' />
+	<script src='poczta_c.lua' type='client' />
+	<script src='poczta_dostarczanie_c.lua' type='client' />
+	<script src='poczta_sprawdzanie_c.lua' type='client' />
+	<script src='poczta_sprawdzanie.lua' type='server' />
+	<script src='poczta_pojazdy.lua' type='server' />
+	
+	<export function="poczta_powiadomGracza" type='server' />
+</meta>

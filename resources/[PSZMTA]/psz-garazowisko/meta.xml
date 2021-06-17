@@ -1,0 +1,4 @@
+<meta>
+<script src="garaze_c.lua" type='client' />
+	<script src="garaze.lua" type='server' />
+</meta>

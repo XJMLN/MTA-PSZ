@@ -1,0 +1,7 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawText("0.00 KM/H", 1007, 459, 1175, 519, tocolor(255, 255, 255, 255), 1.00, "bankgothic", "left", "top", false, false, false, false, false)
+    end
+)

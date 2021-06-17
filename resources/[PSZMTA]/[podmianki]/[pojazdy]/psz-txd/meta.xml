@@ -1,0 +1,9 @@
+<meta>
+    <script type="client" src="replace.lua"/>
+
+    <file src="hotdog.dff"/>
+    <file src="journey.dff"/>
+    <file src="hotdog.txd"/>
+    <file src="journey.txd"/>
+    <file src="newsvan.txd"/>
+</meta>

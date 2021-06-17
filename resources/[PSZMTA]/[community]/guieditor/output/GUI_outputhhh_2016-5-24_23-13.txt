@@ -1,0 +1,41 @@
+
+GUIEditor = {
+    button = {},
+    label = {},
+    edit = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.button[1] = guiCreateButton(99, 389, 276, 37, "Zaloguj", false)
+
+
+        GUIEditor.button[2] = guiCreateButton(380, 388, 290, 38, "", false)
+
+
+        GUIEditor.label[3] = guiCreateLabel(99, 190, 250, 15, "Login / Nick:", false)
+        guiLabelSetHorizontalAlign(GUIEditor.label[3], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[3], "center")
+
+
+        GUIEditor.label[4] = guiCreateLabel(99, 291, 250, 15, "Hasło:", false)
+        guiLabelSetHorizontalAlign(GUIEditor.label[4], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[4], "center")
+
+
+        GUIEditor.edit[1] = guiCreateEdit(99, 215, 250, 27, "", false)
+
+
+        GUIEditor.edit[2] = guiCreateEdit(99, 316, 250, 27, "", false)    
+    end
+)
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawLine(89 - 1, 153 - 1, 89 - 1, 447, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(712, 153 - 1, 89 - 1, 153 - 1, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(89 - 1, 447, 712, 447, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawLine(712, 447, 712, 153 - 1, tocolor(254, 254, 254, 220), 1, false)
+        dxDrawRectangle(89, 153, 623, 294, tocolor(0, 0, 0, 220), false)
+        dxDrawImage(79, 90, 500, 100, ":guieditor/images/examples/mtalogo.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+    end
+)

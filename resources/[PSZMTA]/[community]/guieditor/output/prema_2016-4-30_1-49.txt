@@ -1,0 +1,8 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawRectangle(162, 88, 476, 51, tocolor(0, 0, 0, 255), false)
+        dxDrawText("Kupno PREMIUM", 230, 89, 526, 139, tocolor(255, 255, 255, 255), 1.00, "default", "center", "center", false, false, false, false, false)
+    end
+)

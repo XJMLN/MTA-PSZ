@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+<!-- San Fierro spawn -->
+    <object id="object (wdpillar01_lvs) (1)" breakable="true" interior="0" alpha="255" model="3498" doublesided="false" scale="1" dimension="0" posX="-2428.3999" posY="-573.79999" posZ="133.39999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (wdpillar01_lvs) (2)" breakable="true" interior="0" alpha="255" model="3498" doublesided="false" scale="1" dimension="0" posX="-2416.7" posY="-562.20001" posZ="131.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgwestbillbrd02) (1)" breakable="true" interior="0" alpha="255" model="7901" doublesided="true" scale="1" dimension="0" posX="-2422.6001" posY="-567.90002" posZ="134.8" rotX="0" rotY="0" rotZ="45"></object>
+    <object id="object (a51_jetdoor) (1)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="-2419.2" posY="-565.09998" posZ="134.8" rotX="1" rotY="90" rotZ="135"></object>
+    <object id="object (a51_jetdoor) (2)" breakable="true" interior="0" alpha="255" model="3095" doublesided="false" scale="1" dimension="0" posX="-2425.5" posY="-571.40002" posZ="134.96001" rotX="1" rotY="90" rotZ="134.995"></object>
+
+<!-- Los Santos, Grove Street bar-->
+	<object id="object (vgsbboardsigns18) (1)" breakable="true" interior="0" alpha="255" model="8331" doublesided="true" scale="0.2" dimension="0" posX="2449" posY="-1641" posZ="19" rotX="0" rotY="0" rotZ="200"></object>
+</map>

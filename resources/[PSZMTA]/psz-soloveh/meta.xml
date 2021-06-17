@@ -1,0 +1,4 @@
+<meta>
+	<script src="defs.lua" type="server" />
+	<script src="soloveh.lua" type="server" />
+</meta>

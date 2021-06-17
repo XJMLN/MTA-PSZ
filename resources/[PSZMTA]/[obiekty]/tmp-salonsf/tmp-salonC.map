@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (subwaygate) (1)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="304.5" posZ="36.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (2)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="295.70001" posZ="36.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (3)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="286.90002" posZ="36.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (4)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="278.10004" posZ="36.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (5)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="269.30005" posZ="36.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (6)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.7998" posY="260.5" posZ="36.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (10)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.7" posY="255.89999" posZ="36.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (11)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.7" posY="304.20001" posZ="43.1" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (12)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="295.5" posZ="43.3" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (13)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="286.79999" posZ="43.5" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (14)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="278.10001" posZ="43.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (15)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="269.39999" posZ="43.2" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (16)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="260.70001" posZ="43.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (17)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1966.8" posY="256.10001" posZ="43.3" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (subwaygate) (20)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1961.4" posY="251.5" posZ="42.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (subwaygate) (21)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1949.1" posY="251.39999" posZ="42.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (subwaygate) (22)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1945.6" posY="251.39999" posZ="42.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (subwaygate) (23)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1940.3" posY="256.89999" posZ="41.1" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (subwaygate) (24)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1940.3" posY="265.60001" posZ="41.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (subwaygate) (25)" breakable="true" interior="0" alpha="255" model="971" doublesided="false" scale="1" dimension="0" posX="-1940.3" posY="274.39999" posZ="41.3" rotX="0" rotY="0" rotZ="90"></object>
+</map>

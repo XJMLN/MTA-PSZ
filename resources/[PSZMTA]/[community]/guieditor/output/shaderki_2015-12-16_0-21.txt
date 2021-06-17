@@ -1,0 +1,24 @@
+
+GUIEditor = {
+    checkbox = {},
+    window = {},
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(986, 213, 284, 314, "Panel shaderów", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.checkbox[1] = guiCreateCheckBox(10, 111, 15, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[1] = guiCreateLabel(7, 42, 267, 59, " Uwaga! Jeśli włączysz któryś z shaderów Może\n on obniżyć wydajność Twojej gry. Shadery nie\n są obowiązkowe, włączasz je dla upiększenia gry", false, GUIEditor.window[1])
+        GUIEditor.label[2] = guiCreateLabel(32, 110, 146, 16, "Karoseria pojazdów", false, GUIEditor.window[1])
+        GUIEditor.checkbox[2] = guiCreateCheckBox(10, 145, 15, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[3] = guiCreateLabel(32, 147, 145, 13, "Shader bloom", false, GUIEditor.window[1])
+        GUIEditor.checkbox[3] = guiCreateCheckBox(10, 183, 15, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[4] = guiCreateLabel(31, 183, 146, 14, "Shader detali", false, GUIEditor.window[1])
+        GUIEditor.checkbox[4] = guiCreateCheckBox(10, 223, 15, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[5] = guiCreateLabel(32, 223, 145, 14, "Shader chmur", false, GUIEditor.window[1])
+        GUIEditor.checkbox[5] = guiCreateCheckBox(10, 258, 15, 15, "", false, false, GUIEditor.window[1])
+        GUIEditor.label[6] = guiCreateLabel(32, 257, 145, 16, "Shader wody", false, GUIEditor.window[1])    
+    end
+)

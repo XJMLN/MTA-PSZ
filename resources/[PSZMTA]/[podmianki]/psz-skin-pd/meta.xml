@@ -1,0 +1,10 @@
+<meta>
+	<file src="lapd1.txd" />
+	<file src="lapd1.dff" />
+	<file src="sfpd1.txd" />
+	<file src="sfpd1.dff" />
+	<file src="csher.txd" />
+	<file src="csher.dff" />
+
+	<script src="replace.lua" type="client" />
+</meta>

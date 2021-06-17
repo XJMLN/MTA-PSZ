@@ -1,0 +1,211 @@
+<catalog type="vehicle">
+	<group name="Pojazdy powietrzne">
+		<group name="Helikoptery">
+			<vehicle id="548" vip="false" name="Cargobob" />
+			<vehicle id="417" vip="false" name="Leviathan" />
+			<vehicle id="487" vip="false" name="Maverick" />
+			<vehicle id="488" vip="false" name="News Chopper" />
+			<vehicle id="497" vip="false" name="Police Maverick" />
+			<vehicle id="563" vip="false" name="Raindance" />
+			<vehicle id="469" vip="false" name="Sparrow" />
+		</group>
+		<group name="Samoloty">
+			<vehicle id="511" vip="false" name="Beagle" />
+			<vehicle id="512" vip="false" name="Cropduster" />
+			<vehicle id="593" vip="false" name="Dodo" />
+			<vehicle id="553" vip="false" name="Nevada" />
+			<vehicle id="519" vip="false" name="Shamal" />
+			<vehicle id="460" vip="false" name="Skimmer" />
+			<vehicle id="513" vip="false" name="Stuntplane" />
+		</group>
+	</group>
+	<group name="Pojazdy dwukolowe">
+		<group name="Motocykle">
+			<vehicle id="581" vip="false" name="BF-400" />
+			<vehicle id="462" vip="false" name="Faggio" />
+			<vehicle id="521" vip="false" name="FCR-900" />
+			<vehicle id="463" vip="false" name="Freeway" />
+			<vehicle id="523" vip="false" name="HPV1000" />
+			<vehicle id="522" vip="false" name="NRG-500" />
+			<vehicle id="461" vip="true" name="PCJ-600" />
+			<vehicle id="448" vip="false" name="Pizza Boy" />
+			<vehicle id="468" vip="false" name="Sanchez" />
+			<vehicle id="586" vip="false" name="Wayfarer" />
+			<vehicle id="471" vip="false" name="Quadbike" />
+		</group>
+		<group name="Rowery">
+			<vehicle id="509" vip="false" name="Bike" />
+			<vehicle id="481" vip="false" name="BMX" />
+			<vehicle id="510" vip="false" name="Mountain bike" />
+		</group>
+	</group>
+	<group name="Pojazdy wodne">
+		<vehicle id="472" vip="false" name="Coastguard" />
+		<vehicle id="473" vip="false" name="Dinghy" />
+		<vehicle id="493" vip="false" name="Jetmax" />
+		<vehicle id="595" vip="false" name="Launch" />
+		<vehicle id="484" vip="false" name="Marquis" />
+		<vehicle id="430" vip="false" name="Predator" />
+		<vehicle id="453" vip="false" name="Reefer" />
+		<vehicle id="452" vip="false" name="Speeder" />
+		<vehicle id="446" vip="false" name="Squalo" />
+		<vehicle id="454" vip="false" name="Tropic" />
+	</group>
+	<group name="Samochody">
+		<group name="Pojazdy sportowe">
+			<vehicle id="602" vip="false" name="Alpha" />
+			<vehicle id="429" vip="false" name="Banshee" />
+			<vehicle id="402" vip="false" name="Buffalo" />
+			<vehicle id="541" vip="false" name="Bullet" />
+			<vehicle id="415" vip="false" name="Cheetah" />
+			<vehicle id="480" vip="false" name="Comet" />
+			<vehicle id="562" vip="false" name="Elegy" />
+			<vehicle id="587" vip="false" name="Euros" />
+			<vehicle id="565" vip="false" name="Flash" />
+			<vehicle id="411" vip="false" name="Infernus" />
+			<vehicle id="559" vip="false" name="Jester" />
+			<vehicle id="603" vip="false" name="Phoenix" />
+			<vehicle id="560" vip="false" name="Sultan" />
+			<vehicle id="506" vip="false" name="Super GT" />
+			<vehicle id="451" vip="true" name="Turismo" />
+			<vehicle id="558" vip="true" name="Uranus" />
+			<vehicle id="555" vip="false" name="Windsor" />
+			<vehicle id="477" vip="false" name="ZR-350" />
+		</group>
+		<group name="Lowridery">
+			<vehicle id="536" vip="false" name="Blade" />
+			<vehicle id="575" vip="false" name="Broadway" />
+			<vehicle id="518" vip="false" name="Buccaneer" />
+			<vehicle id="419" vip="false" name="Esperanto" />
+			<vehicle id="534" vip="false" name="Remington" />
+			<vehicle id="567" vip="false" name="Savanna" />
+			<vehicle id="535" vip="false" name="Slamvan" />
+			<vehicle id="576" vip="false" name="Tornado" />
+			<vehicle id="412" vip="false" name="Voodoo" />
+		</group>
+		<group name="Pojazdy 2-drzwiowe">
+			<vehicle id="496" vip="false" name="Blista Compact" />
+			<vehicle id="401" vip="false" name="Bravura" />
+			<vehicle id="527" vip="false" name="Cadrona" />
+			<vehicle id="542" vip="false" name="Clover" />
+			<vehicle id="533" vip="false" name="Feltzer" />
+			<vehicle id="526" vip="false" name="Fortune" />
+			<vehicle id="474" vip="false" name="Hermes" />
+			<vehicle id="545" vip="false" name="Hustler" />
+			<vehicle id="517" vip="false" name="Majestic" />
+			<vehicle id="410" vip="false" name="Manana" />
+			<vehicle id="436" vip="false" name="Previon" />
+			<vehicle id="475" vip="false" name="Sabre" />
+			<vehicle id="439" vip="false" name="Stallion" />
+			<vehicle id="549" vip="false" name="Tampa" />
+			<vehicle id="491" vip="false" name="Virgo" />
+		</group>
+		<group name="Pojazdy 4-drzwiowe">
+			<vehicle id="445" vip="false" name="Admiral" />
+			<vehicle id="438" vip="false" name="Cabbie" />
+			<vehicle id="507" vip="false" name="Elegant" />
+			<vehicle id="585" vip="false" name="Emperor" />
+			<vehicle id="466" vip="false" name="Glendale" />
+			<vehicle id="492" vip="false" name="Greenwood" />
+			<vehicle id="546" vip="false" name="Intruder" />
+			<vehicle id="551" vip="false" name="Merit" />
+			<vehicle id="516" vip="false" name="Nebula" />
+			<vehicle id="467" vip="false" name="Oceanic" />
+			<vehicle id="404" vip="false" name="Perennial" />
+			<vehicle id="426" vip="false" name="Premier" />
+			<vehicle id="547" vip="false" name="Primo" />
+			<vehicle id="479" vip="false" name="Regina" />
+			<vehicle id="405" vip="false" name="Sentinel" />
+			<vehicle id="458" vip="false" name="Solair" />
+			<vehicle id="580" vip="false" name="Stafford" />
+			<vehicle id="561" vip="false" name="Stratum" />
+			<vehicle id="409" vip="false" name="Stretch" />
+			<vehicle id="550" vip="false" name="Sunrise" />
+			<vehicle id="566" vip="false" name="Tahoma" />
+			<vehicle id="420" vip="false" name="Taxi" />
+			<vehicle id="540" vip="false" name="Vincent" />
+			<vehicle id="421" vip="false" name="Washington" />
+			<vehicle id="529" vip="false" name="Willard" />
+		</group>
+		<group name="Pojazdy terenowe">
+			<vehicle id="589" vip="false" name="Club" />
+			<vehicle id="579" vip="false" name="Huntley" />
+			<vehicle id="400" vip="false" name="Landstalker" />
+			<vehicle id="500" vip="true" name="Mesa" />
+			<vehicle id="470" vip="false" name="Patriot" />
+			<vehicle id="489" vip="false" name="Rancher" />
+			<vehicle id="495" vip="false" name="Sandking" />
+
+		</group>
+	</group>
+	<group name="Pojazdy sluzbowe">
+		<vehicle id="433" vip="false" name="Barracks" />
+		<vehicle id="490" vip="false" name="FBI rancher" />
+		<vehicle id="528" vip="false" name="FBI truck" />
+	</group>
+	<group name="Ciezkie pojazdy">
+		<group name="Pojazdy przemyslowe">
+			<vehicle id="524" vip="false" name="Cement truck" />
+			<vehicle id="578" vip="false" name="DFT-30" />
+			<vehicle id="573" vip="false" name="Dune" />
+			<vehicle id="455" vip="false" name="Flatbed" />
+			<vehicle id="530" vip="false" name="Forklift" />
+			<vehicle id="403" vip="false" name="Linerunner" />
+			<vehicle id="443" vip="false" name="Packer" />
+			<vehicle id="515" vip="false" name="Roadtrain" />
+			<vehicle id="574" vip="false" name="Sweeper" />
+			<vehicle id="514" vip="false" name="Tanker" />
+			<vehicle id="525" vip="false" name="Towtruck" />
+			<vehicle id="408" vip="false" name="Trashmaster" />
+			<vehicle id="552" vip="false" name="Utility van" />
+		</group>
+		<group name="Ciezarowki">
+			<vehicle id="499" vip="false" name="Benson" />
+			<vehicle id="609" vip="false" name="Black Boxville" />
+			<vehicle id="422" vip="false" name="Bobcat" />
+			<vehicle id="414" vip="false" name="Mule" />
+			<vehicle id="600" vip="false" name="Picador" />
+			<vehicle id="543" vip="false" name="Sadler" />
+			<vehicle id="428" vip="false" name="Securicar" />
+			<vehicle id="478" vip="false" name="Walton" />
+			<vehicle id="456" vip="false" name="Yankee" />
+			<vehicle id="554" vip="false" name="Yosemite" />
+		</group>
+		<group name="Vany">
+			<vehicle id="459" vip="false" name="Berkley's RC van" />
+			<vehicle id="482" vip="false" name="Burrito" />
+			<vehicle id="483" vip="false" name="Camper" />
+			<vehicle id="508" vip="false" name="Journey" />
+			<vehicle id="418" vip="false" name="Moonbeam" />
+			<vehicle id="582" vip="false" name="News van" />
+			<vehicle id="413" vip="false" name="Pony" />
+			<vehicle id="442" vip="false" name="Romero" />
+			<vehicle id="440" vip="false" name="Rumpo" />
+		</group>
+	</group>
+	<group name="Pozostale pojazdy">
+		<group name="Inne">
+			<vehicle id="485" vip="false" name="Baggage" />
+			<vehicle id="568" vip="false" name="Bandito" />
+			<vehicle id="424" vip="true" name="BF Injection" />
+			<vehicle id="504" vip="false" name="Bloodring Banger" />
+			<vehicle id="431" vip="false" name="Bus" />
+			<vehicle id="457" vip="false" name="Caddy" />
+			<vehicle id="437" vip="false" name="Coach" />
+			<vehicle id="588" vip="false" name="Hotdog" />
+			<vehicle id="434" vip="false" name="Hotknife" />
+			<vehicle id="494" vip="false" name="Hotring racer" />
+			<vehicle id="502" vip="false" name="Hotring racer 2" />
+			<vehicle id="503" vip="false" name="Hotring racer 3" />
+			<vehicle id="444" vip="false" name="Monster" />
+			<vehicle id="556" vip="false" name="Monster 2" />
+			<vehicle id="557" vip="false" name="Monster 3" />
+			<vehicle id="572" vip="true" name="Mower" />
+			<vehicle id="423" vip="false" name="Mr. Whoopee" />
+			<vehicle id="531" vip="false" name="Tractor" />
+			<vehicle id="449" vip="false" name="Trolly" />
+			<vehicle id="583" vip="false" name="Tug" />
+			<vehicle id="539" vip="false" name="Vortex" />
+		</group>
+	</group>
+</catalog>

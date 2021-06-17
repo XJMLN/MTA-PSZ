@@ -1,0 +1,13 @@
+
+GUIEditor = {
+    window = {},
+    memo = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(114, 104, 602, 382, "Komputer policyjny", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.memo[1] = guiCreateMemo(323, 22, 269, 257, "Nick: XJMLN\nŁączna ilość wykroczeń: 120\nPoziom poszukiwania: 2\nZgłoszenie przyjęte: Nie.", false, GUIEditor.window[1])    
+    end
+)

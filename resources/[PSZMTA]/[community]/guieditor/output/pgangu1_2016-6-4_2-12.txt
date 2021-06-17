@@ -1,0 +1,53 @@
+--[[-------------------------------------------------
+Notes:
+
+> This code is using a custom font. This will only work as long as the location it is from always exists, and the resource it is part of is running.
+    To ensure it does not break, it is highly encouraged to move custom fonts into your local resource and reference them there.
+--]]-------------------------------------------------
+
+
+GUIEditor = {
+    tab = {},
+    tabpanel = {},
+    label = {},
+    button = {},
+    window = {},
+    gridlist = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(117, 119, 1041, 502, "", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(9, 23, 1022, 426, false, GUIEditor.window[1])
+
+        GUIEditor.tab[1] = guiCreateTab("Członkowie", GUIEditor.tabpanel[1])
+
+        GUIEditor.gridlist[1] = guiCreateGridList(7, 8, 1005, 313, false, GUIEditor.tab[1])
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Nick", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Ranga", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Ostatnio w grze", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Ilość pieniędzy wpłacona do sejfu", 0.2)
+        guiGridListAddRow(GUIEditor.gridlist[1])
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 1, "-", false, false)
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 2, "-", false, false)
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 3, "-", false, false)
+        guiGridListSetItemText(GUIEditor.gridlist[1], 0, 4, "-", false, false)
+        GUIEditor.button[1] = guiCreateButton(9, 331, 271, 60, "Dodaj gracza do gangu", false, GUIEditor.tab[1])
+        GUIEditor.button[2] = guiCreateButton(290, 331, 271, 60, "Wyrzuć gracza do gangu", false, GUIEditor.tab[1])
+        GUIEditor.button[3] = guiCreateButton(569, 332, 271, 59, "Edytuj gracza", false, GUIEditor.tab[1])
+
+        GUIEditor.tab[2] = guiCreateTab("Zarządzaj gangiem", GUIEditor.tabpanel[1])
+
+        GUIEditor.label[1] = guiCreateLabel(280, 236, 501, 42, "Statystyki gangu:", false, GUIEditor.tab[2])
+        local font0_font = guiCreateFont(":psz-gui/font/font.ttf", 25)
+        guiSetFont(GUIEditor.label[1], font0_font)
+        guiLabelSetHorizontalAlign(GUIEditor.label[1], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+        GUIEditor.label[2] = guiCreateLabel(22, 330, 182, 15, "Ilość członków:", false, GUIEditor.tab[2])
+        GUIEditor.label[3] = guiCreateLabel(4, 221, 1014, 15, "______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________", false, GUIEditor.tab[2])
+
+
+        GUIEditor.button[4] = guiCreateButton(9, 459, 305, 33, "Zamknij", false, GUIEditor.window[1])    
+    end
+)

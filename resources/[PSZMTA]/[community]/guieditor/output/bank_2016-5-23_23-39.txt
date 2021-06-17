@@ -1,0 +1,20 @@
+
+GUIEditor = {
+    tab = {},
+    window = {},
+    tabpanel = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(347, 212, 584, 297, "Bankomat", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(9, 20, 277, 267, false, GUIEditor.window[1])
+
+        GUIEditor.tab[1] = guiCreateTab("Tab", GUIEditor.tabpanel[1])
+
+        GUIEditor.tabpanel[2] = guiCreateTabPanel(290, 20, 284, 267, false, GUIEditor.window[1])
+
+        GUIEditor.tab[2] = guiCreateTab("Tab", GUIEditor.tabpanel[2])    
+    end
+)

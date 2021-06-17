@@ -1,0 +1,38 @@
+
+GUIEditor = {
+    edit = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.edit[1] = guiCreateEdit(462, 233, 352, 34, "", false)
+
+
+        GUIEditor.edit[2] = guiCreateEdit(462, 304, 352, 33, "", false)    
+    end
+)
+
+local screenW, screenH = guiGetScreenSize()
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawLine(290 - 1, 166 - 1, 290 - 1, 554, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(990, 166 - 1, 290 - 1, 166 - 1, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(290 - 1, 554, 990, 554, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(990, 554, 990, 166 - 1, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawRectangle((screenW - 700) / 2, (screenH - 388) / 2, 700, 388, tocolor(65, 65, 65, 175), false)
+        dxDrawText("Nazwa konta:", 462, 211, 651, 223, tocolor(255, 255, 255, 255), 1.00, "default", "left", "center", false, false, false, false, false)
+        dxDrawText("Hasło konta:", 462, 281, 649, 294, tocolor(255, 255, 255, 255), 1.00, "default", "left", "top", false, false, false, false, false)
+        dxDrawLine(322 - 1, 479 - 1, 322 - 1, 535, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(574, 479 - 1, 322 - 1, 479 - 1, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(322 - 1, 535, 574, 535, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(574, 535, 574, 479 - 1, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawRectangle(322, 479, 252, 56, tocolor(65, 65, 65, 175), false)
+        dxDrawText("Zaloguj", 321, 478, 574, 535, tocolor(255, 255, 255, 255), 1.00, "bankgothic", "center", "center", false, false, false, false, false)
+        dxDrawLine(698 - 1, 478 - 1, 698 - 1, 535, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(955, 478 - 1, 698 - 1, 478 - 1, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(698 - 1, 535, 955, 535, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawLine(955, 535, 955, 478 - 1, tocolor(0, 0, 0, 255), 1, false)
+        dxDrawRectangle(698, 478, 257, 57, tocolor(65, 65, 65, 175), false)
+        dxDrawText("Zarejestruj", 698, 478, 955, 535, tocolor(255, 255, 255, 255), 1.00, "bankgothic", "center", "center", false, false, false, false, false)
+    end
+)

@@ -1,0 +1,8 @@
+<meta>
+<script src="naglosnienie_c.lua" type="client" />
+<script src="naglosnienie.lua" type="server" />
+
+<map src="choinka.map" />
+<sync_map_element_data>false</sync_map_element_data>
+
+</meta>

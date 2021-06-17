@@ -1,0 +1,11 @@
+<meta>
+	<script src='replace.lua' type='client' />
+
+	<file src='lvemt1.dff' />
+	<file src='lvemt1.txd' />
+	<file src='sfemt1.dff' />
+	<file src='sfemt1.txd' />
+	<file src='wfyclot.dff' />
+	<file src='wfyclot.txd' />
+
+</meta>

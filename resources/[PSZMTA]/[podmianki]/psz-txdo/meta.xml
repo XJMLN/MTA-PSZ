@@ -1,0 +1,10 @@
+<meta>
+<file src="sam_camo.png" />
+<file src="sam_camo2.png" />
+<file src="green.png" />
+<file src="shader.fx" />
+<script src="shader.lua" type='client' />
+<script src="temp_c.lua" type="client" />
+
+
+</meta>

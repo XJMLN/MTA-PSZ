@@ -1,0 +1,6 @@
+<meta>
+	<file src="sanchez.txd" />
+	<file src="sanchez.dff" />
+	
+	<script src='replace.lua' type='client' />
+</meta>

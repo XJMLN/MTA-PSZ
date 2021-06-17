@@ -1,0 +1,12 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawLine(0 - 1, 0 - 1, 0 - 1, 600, tocolor(255, 0, 0, 255), 1, false)
+        dxDrawLine(800, 0 - 1, 0 - 1, 0 - 1, tocolor(255, 0, 0, 255), 1, false)
+        dxDrawLine(0 - 1, 600, 800, 600, tocolor(255, 0, 0, 255), 1, false)
+        dxDrawLine(800, 600, 800, 0 - 1, tocolor(255, 0, 0, 255), 1, false)
+        dxDrawRectangle(0, 0, 800, 600, tocolor(255, 0, 0, 0), false)
+        dxDrawRectangle(67, 436, 648, 145, tocolor(29, 28, 28, 162), false)
+    end
+)

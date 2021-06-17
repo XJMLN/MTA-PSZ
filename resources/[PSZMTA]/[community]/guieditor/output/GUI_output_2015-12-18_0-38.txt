@@ -1,0 +1,8 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawImage(1121, 54, 115, 109, ":psz-gui/img/nodm.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+        dxDrawText("Strefa bez bicia", 1099, 163, 1276, 188, tocolor(254, 254, 254, 255), 1.00, "pricedown", "left", "top", false, false, false, false, false)
+    end
+)

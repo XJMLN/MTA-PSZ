@@ -1,0 +1,6 @@
+<meta>
+	<script src="sound_c.lua" type="client" /> <script src="kierunkowskazy_c.lua" type="client" />	<script src="noblur.lua" type="server" />
+	<script src="nos.lua" type="client" />
+	<script src="texty.lua" type="server" />
+	<script src="pedy.lua" type="server" />
+</meta>

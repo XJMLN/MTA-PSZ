@@ -1,0 +1,6 @@
+<meta>
+	<script src="replace.lua" type="client" />
+
+	<file src="windsor.dff"/>
+	<file src="windsor.txd"/>	
+</meta>

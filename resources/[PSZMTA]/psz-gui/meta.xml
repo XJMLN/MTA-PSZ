@@ -1,0 +1,44 @@
+<meta>
+<!--script src="aktualizacje_c.lua" type="client" />
+<script src="aktualizacje.lua" type="server" /-->
+<script src="gui_c.lua" type="client" />
+<script src="nametags.lua" type="client"/>
+<script src="utils.lua" type="server" />
+<script src="intro.lua" type="client"/>
+<script src="data_pomoc.lua" type="client" />
+<script src="pomoc_c.lua" type="client"/>
+<script src="afk.lua" type="server" />
+<script src="afk_c.lua" type="client" />
+<script src="shadery.lua" type="server"/>
+<script src="shadery_c.lua" type="client"/>
+<script src="chat_c.lua" type="client"/>
+<script src="zarzadzanie_c.lua" type="client" />
+<script src="vehicles_c.lua" type="client" />
+	<file src="i/b_main.png" />
+	<file src="i/b_info.png" />
+	<file src="font/kozuka_light.ttf" />
+	<file src="font/mp_regular.ttf" />
+
+
+<file src="fx/motion.fx" />
+<file src="font/droid-sans.ttf"/>
+<file src="font/font.ttf"/>
+<file src="font/homework.ttf"/>
+<file src="font/asr.ttf" />
+<file src="font/klavik.otf"/>
+<file src="i/close.png" />
+<file src="i/logo.png" />
+<file src="i/bubble[1].png" />
+<file src="i/bubble[2].png" />
+<file src="i/bubble[3].png" />
+<file src="i/gicons/g-2-32.png" />
+<file src="a/drake.ogg" />
+<!--file src="a/swieta.ogg" /-->
+<file src="a/1.ogg" />
+<file src="a/2.ogg" />
+<file src="a/3.ogg" />
+<file src="a/4.ogg" />
+<file src="a/5.ogg" />
+<file src="i/needle.png" />
+<file src="i/disc2.png" />
+</meta>

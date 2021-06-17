@@ -1,0 +1,6 @@
+<meta>
+	<file src="a/zbuku.ogg" />
+	<map src="Interior.map" />
+	<script src="naglosnienie_c.lua" type="client" />
+	<script src="naglosnienie.lua" type="server" />
+</meta>

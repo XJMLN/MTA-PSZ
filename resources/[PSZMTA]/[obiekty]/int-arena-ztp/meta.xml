@@ -1,0 +1,5 @@
+<meta>
+    <script src="map.luac" type="client" />
+    <script src="ztp_minigun.lua" type="server" />
+    <script src="schody_b.lua" type="server" />
+</meta>

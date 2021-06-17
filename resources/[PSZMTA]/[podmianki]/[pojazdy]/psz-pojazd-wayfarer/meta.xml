@@ -1,0 +1,6 @@
+<meta>
+	<script src="replace.lua" type="client" />
+
+	<file src="wayfarer.dff"/>
+	<file src="wayfarer.txd"/>	
+</meta>

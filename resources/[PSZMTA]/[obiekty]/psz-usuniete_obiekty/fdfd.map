@@ -1,0 +1,49 @@
+<map edf:definitions="editor_main">
+
+
+<!-- Spawn Los Santos -->
+	<removeWorldObject id="removeWorldObject (la_fuckcar2) (1)" radius="5.7480135" interior="0" model="3593" lodModel="0" posX="2459.4797" posY="-1677.7316" posZ="13.5546" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (compfukhouse3) (1)" radius="12.906491" interior="0" model="3589" lodModel="3592" posX="2451.7344" posY="-1637.4844" posZ="15.13281" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+<!-- Spawn Las Venturas -->
+	 <removeWorldObject id="removeWorldObject (apbarriergate06_lvS) (1)" radius="16.35545" interior="0" model="8041" lodModel="0" posX="1715.75" posY="1303.2891" posZ="15.60156" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+<!-- Spawn San Fierro -->
+	<removeWorldObject id="removeWorldObject (icescart_prop) (1)" radius="3.9974093" interior="0" model="1341" lodModel="0" posX="-2384.4077" posY="-584.53473" posZ="131.86049" rotX="0" rotY="0" rotZ="0"></removeWorldObject>  
+
+<!-- Kopalnia Flint County, Flint Range -->
+	<removeWorldObject id="removeWorldObject (sjmoldbarn04) (1)" radius="14.422707" interior="0" model="17457" lodModel="0" posX="-570.73437" posY="-1490.3203" posZ="15.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (nt_windmill) (1)" radius="14.748411" interior="0" model="3425" lodModel="0" posX="-583.05469" posY="-1496.7031" posZ="19.98438" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cxrf_watertwr) (1)" radius="7.7117" interior="0" model="3286" lodModel="0" posX="-559.30469" posY="-1486.3281" posZ="12.83594" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+<!-- Plaza LS, Scena -->
+<removeWorldObject id="removeWorldObject (lamppost1) (1)" radius="6.0116315" interior="0" model="1297" lodModel="0" posX="339.32645" posY="-1812.248" posZ="3.79729" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lamppost1) (2)" radius="6.0116315" interior="0" model="1297" lodModel="0" posX="352.03418" posY="-1812.4855" posZ="3.9512" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lamppost1) (3)" radius="6.0116315" interior="0" model="1297" lodModel="0" posX="326.1705" posY="-1812.3326" posZ="3.9077" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lamppost1) (4)" radius="6.0116315" interior="0" model="1297" lodModel="0" posX="313.59369" posY="-1812.3701" posZ="6.32368" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lamppost1) (5)" radius="6.0116315" interior="0" model="1297" lodModel="0" posX="344.82669" posY="-1776.7806" posZ="4.48516" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lamppost1) (6)" radius="6.0116315" interior="0" model="1297" lodModel="0" posX="349.39188" posY="-1754.0203" posZ="3.9755" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lamppost1) (7)" radius="6.0116315" interior="0" model="1297" lodModel="0" posX="338.01239" posY="-1749.976" posZ="4.02075" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Pier02Tr_LAw2) (1)" radius="63.605461" interior="0" model="6457" lodModel="0" posX="385.08594" posY="-1823.6484" posZ="10.28125" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (sanmonbhut1_LAW2) (1)" radius="10.041734" interior="0" model="3615" lodModel="3778" posX="337.45313" posY="-1875" posZ="3.40625" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+ <removeWorldObject id="removeWorldObject (veg_palm02) (1)" radius="19.19784" interior="0" model="621" lodModel="0" posX="207.19531" posY="-1719.5859" posZ="3.45313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+<!-- Hall Of Fame -->
+ <removeWorldObject id="removeWorldObject (Streetlamp1) (1)" radius="4.9006982" interior="0" model="1232" lodModel="0" posX="-1510.7329" posY="918.05762" posZ="7.74831" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+<!-- Warsztat LV -->
+ <removeWorldObject id="removeWorldObject (nucarpark01_lvs) (1)" radius="42.761387" interior="0" model="8431" lodModel="8713" posX="2645.1797" posY="1210.9297" posZ="18.51563" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+ 
+ <!-- LS baza holownikow -->
+   <removeWorldObject id="removeWorldObject (la_fuckcar2) (1)" radius="5.7480135" interior="0" model="3593" lodModel="0" posX="2407.6572" posY="-1416.9812" posZ="24.33446" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<!-- Spawn SF 2-->
+    <removeWorldObject id="removeWorldObject (DYN_LIFE_P) (1)" radius="2.8928671" interior="0" model="1461" lodModel="0" posX="-2092.9146" posY="1367.9938" posZ="7.6533" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_LIFE_P) (2)" radius="2.8928671" interior="0" model="1461" lodModel="0" posX="-2093.1104" posY="1401.5903" posZ="7.3865" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_LIFE_P) (3)" radius="2.8928671" interior="0" model="1461" lodModel="0" posX="-2062.2495" posY="1430.1982" posZ="7.05606" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_LIFE_P) (4)" radius="2.8928671" interior="0" model="1461" lodModel="0" posX="-2062.2495" posY="1382.5073" posZ="7.0777" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (bin1) (1)" radius="2.9140089" interior="0" model="1300" lodModel="0" posX="-2073.9187" posY="1330.436" posZ="6.94481" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_LIFE_P) (5)" radius="2.8928671" interior="0" model="1461" lodModel="0" posX="-2062.2495" posY="1336.8186" posZ="7.44651" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+<!-- Opuszcozne lot LV -->
+<removeWorldObject id="removeWorldObject (trailer6_01) (1)" radius="8.4500732" interior="0" model="3172" lodModel="3345" posX="400.11719" posY="2543.5703" posZ="15.48438" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

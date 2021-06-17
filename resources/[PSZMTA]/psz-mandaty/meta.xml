@@ -1,0 +1,5 @@
+<meta>
+   
+     <script src="mandaty_c.lua" type="client" />
+     <script src="mandaty.lua" type="server" />
+</meta>

@@ -1,0 +1,20 @@
+
+GUIEditor = {
+    button = {},
+    window = {},
+    combobox = {},
+    memo = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(114, 104, 602, 382, "Komputer policyjny", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.memo[1] = guiCreateMemo(0.54, 0.06, 0.45, 0.67, "Nick: XJMLN\nŁączna ilość wykroczeń: 120\nPoziom poszukiwania: 2\nZgłoszenie przyjęte: Nie.", true, GUIEditor.window[1])
+        GUIEditor.combobox[1] = guiCreateComboBox(0.06, 0.12, 0.46, 0.61, "-Wybierz gracza-", true, GUIEditor.window[1])
+        guiComboBoxAddItem(GUIEditor.combobox[1], "XJMLN")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "-Wybierz gracza-")
+        GUIEditor.button[1] = guiCreateButton(0.54, 0.76, 0.43, 0.21, "Zamknij", true, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(0.09, 0.77, 0.40, 0.20, "Namierz gracza", true, GUIEditor.window[1])    
+    end
+)

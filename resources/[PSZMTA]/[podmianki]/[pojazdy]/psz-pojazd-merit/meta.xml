@@ -1,0 +1,6 @@
+<meta>
+	<script src="replace.lua" type="client" />
+
+	<file src="merit.dff"/>
+	<file src="merit.txd"/>	
+</meta>

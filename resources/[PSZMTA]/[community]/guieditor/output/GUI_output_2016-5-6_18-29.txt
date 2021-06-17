@@ -1,0 +1,17 @@
+
+GUIEditor = {
+    gridlist = {},
+    window = {},
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(242, 137, 328, 362, "", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.gridlist[1] = guiCreateGridList(9, 50, 309, 302, false, GUIEditor.window[1])
+
+
+        GUIEditor.label[1] = guiCreateLabel(251, 159, 309, 23, "", false)    
+    end
+)

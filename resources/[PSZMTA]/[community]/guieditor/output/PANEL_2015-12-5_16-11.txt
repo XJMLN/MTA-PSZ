@@ -1,0 +1,8 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawRectangle(982, 0, 298, 720, tocolor(44, 44, 44, 235), false)
+        dxDrawImage(994, 9, 85, 77, ":psz-gui/img/player.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+    end
+)

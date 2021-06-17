@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (weddingsifgn1) (1)" breakable="true" interior="0" alpha="255" model="7093" doublesided="false" scale="1" dimension="0" posX="1729.1" posY="1316.6" posZ="13" rotX="0" rotY="0" rotZ="313.75"></object>
+    <object id="object (weddingsifgn1) (2)" breakable="true" interior="0" alpha="255" model="7093" doublesided="false" scale="1" dimension="0" posX="1726.9" posY="1291.6" posZ="13.1" rotX="0" rotY="0" rotZ="237.496"></object>
+    <object id="object (weddingsifgn1) (3)" breakable="true" interior="0" alpha="255" model="7093" doublesided="false" scale="1" dimension="0" posX="-226.8" posY="2615.6001" posZ="65.9" rotX="0" rotY="0" rotZ="199.491"></object>
+    <object id="object (weddingsifgn1) (4)" breakable="true" interior="0" alpha="255" model="7093" doublesided="false" scale="1" dimension="0" posX="-214" posY="2616.2" posZ="65.9" rotX="0" rotY="0" rotZ="159.49"></object>
+    <object id="object (weddingsifgn1) (5)" breakable="true" interior="0" alpha="255" model="7093" doublesided="false" scale="1" dimension="0" posX="-2390.7" posY="-651.40002" posZ="133.60001" rotX="0" rotY="0" rotZ="207.489"></object>
+    <object id="object (weddingsifgn1) (6)" breakable="true" interior="0" alpha="255" model="7093" doublesided="false" scale="1" dimension="0" posX="-2438.3" posY="-569.20001" posZ="133.10001" rotX="0" rotY="0" rotZ="191.488"></object>
+</map>

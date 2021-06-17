@@ -1,0 +1,5 @@
+<meta>
+    <map src="psz-policja_lv.map" />
+	<script src='brama.lua' type='server' />
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<script src="carwash.lua" type="server" />
+        <script src="carwash_c.lua" type="client" />
+        
+        <file src="texture.fx" />
+</meta>

@@ -1,0 +1,10 @@
+<meta>
+	<!--map src="cn.map" /-->
+	<map src="bls.map" />
+	<!--map src="ab.map" /-->
+	<!--map src="bh.map" /-->
+		<!--map src="cdf.map" /-->
+	<!--script src="cdf_b.lua" type="server" /-->
+	<script src="bls_b.lua" type="server" />
+	<sync_map_element_data>false</sync_map_element_data>	
+</meta>

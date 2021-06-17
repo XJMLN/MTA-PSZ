@@ -1,0 +1,4 @@
+<meta>
+    <script src="map.luac" type="client" />
+	<script src="pickups.lua" type="server" />
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+	<script src="zmienhaslo_c.lua" type="client" />
+	<script src="zmienhaslo.lua" type="server" />
+</meta>

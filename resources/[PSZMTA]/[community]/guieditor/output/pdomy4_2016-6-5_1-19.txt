@@ -1,0 +1,36 @@
+--[[-------------------------------------------------
+Notes:
+
+> This code is using a custom font. This will only work as long as the location it is from always exists, and the resource it is part of is running.
+    To ensure it does not break, it is highly encouraged to move custom fonts into your local resource and reference them there.
+--]]-------------------------------------------------
+
+
+GUIEditor = {
+    tab = {},
+    tabpanel = {},
+    label = {},
+    button = {},
+    window = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(0.19, 0.22, 0.58, 0.62, "", true)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(0.01, 0.05, 0.97, 0.80, true, GUIEditor.window[1])
+
+        GUIEditor.tab[1] = guiCreateTab("Kup dom", GUIEditor.tabpanel[1])
+
+        GUIEditor.label[1] = guiCreateLabel(0.39, 0.00, 0.21, 0.11, "Kupno domu", true, GUIEditor.tab[1])
+        local font0_font = guiCreateFont(":psz-gui/font/font.ttf", 20)
+        guiSetFont(GUIEditor.label[1], font0_font)
+        GUIEditor.label[2] = guiCreateLabel(142, 46, 475, 30, "Koszt kupna domu na okres x dni, wynosi y$.", false, GUIEditor.tab[1])
+        guiSetFont(GUIEditor.label[2], "default-bold-small")
+        guiLabelSetHorizontalAlign(GUIEditor.label[2], "center", false)
+
+        GUIEditor.tab[2] = guiCreateTab("Zarządzanie domem", GUIEditor.tabpanel[1])
+
+        GUIEditor.button[1] = guiCreateButton(0.01, 0.86, 0.33, 0.11, "", true, GUIEditor.window[1])    
+    end
+)
